@@ -11,10 +11,13 @@
 </svelte:head>
 
 <header class="app-header">
-	<a href="/" class="brand">
-		Procedimentos Operacionais
-		<small>CGB</small>
-	</a>
+	<div class="app-header-inner">
+		<a href="/" class="mark" aria-hidden="true">CGB</a>
+		<a href="/" class="brand-text">
+			<span class="brand-name">Procedimentos Operacionais</span>
+			<span class="brand-sub">Consulta rápida de POPs</span>
+		</a>
+	</div>
 </header>
 
 <main>

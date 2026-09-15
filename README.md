@@ -1,68 +1,91 @@
 # Visualizador de Procedimentos Operacionais — CGB
 
-Portal leve, mobile-first, em SvelteKit, que serve como porta de entrada para
-os Procedimentos Operacionais da CGB. Não copia nem armazena nenhum arquivo —
-cada card do site leva direto para a pasta real no OneDrive/SharePoint, então
-o conteúdo está sempre atualizado (é a pasta ao vivo, não uma cópia).
+Site em SvelteKit com os Procedimentos Operacionais da CGB navegáveis por
+categoria, com busca e visualização de PDF direto no navegador (celular,
+tablet ou notebook). Os arquivos ficam copiados dentro do próprio projeto
+(pasta `static/pops`) e são publicados como site estático na Vercel — sem
+backend, sem login, sem credenciais de API.
 
-Sem backend, sem login próprio, sem credenciais de API. Só um front-end
-estático hospedado na Vercel.
+Como os arquivos moram dentro do projeto, **atualizações são feitas
+localmente**: sempre que um procedimento for adicionado/alterado na pasta de
+origem, é preciso rodar o script de sincronização e publicar de novo.
 
 ## Como funciona
 
-- `src/lib/data/pastas.ts` tem uma lista simples de atalhos (`{ nome, url }`).
-- A página inicial mostra um card para cada atalho; ao tocar, abre o link do
-  OneDrive em uma nova aba.
-- Dentro do OneDrive, a navegação entre subpastas, a busca e a visualização
-  do PDF já são feitas pela própria interface da Microsoft — que funciona bem
-  em celular, tablet e notebook.
+- `scripts/sync-pops.mjs` lê a pasta local de origem (por padrão, a pasta
+  `PROCEDIMENTOS OPERACIONAIS - CGB` ao lado deste projeto), copia todos os
+  PDFs/Word/Excel para `static/pops/` e gera um índice em
+  `src/lib/data/manifest.json` com toda a árvore de pastas e arquivos.
+- O site lê esse índice para montar a navegação (categorias na tela inicial,
+  pastas/subpastas, busca por nome) e serve os arquivos como conteúdo
+  estático — o PDF abre embutido na página, sem precisar baixar.
+- Como tudo é estático, o deploy na Vercel não precisa de nenhuma variável de
+  ambiente nem servidor.
 
-## Pré-requisito: link público
+## Atualizando o conteúdo
 
-Para que qualquer pessoa consiga abrir sem precisar de login, a pasta no
-OneDrive precisa estar compartilhada com o link no modo **"Qualquer pessoa com
-o link"**:
+Sempre que os procedimentos originais mudarem:
 
-1. No OneDrive, clique com o botão direito na pasta → **Compartilhar**.
-2. Em **Configurações do link**, escolha **Qualquer pessoa** (em vez de
-   "Pessoas com acesso existente" ou "Pessoas em CGB Engenharia").
-3. Permissão: **Pode visualizar**.
-4. Copie o link e cole em `src/lib/data/pastas.ts`.
-
-Se preferir manter restrito a quem tem conta da CGB, escolha **Pessoas em CGB
-Engenharia** em vez de "Qualquer pessoa" — quem já estiver logado no
-Microsoft 365 da empresa no navegador entra direto, sem senha extra.
-
-## Adicionando mais atalhos
-
-Edite `src/lib/data/pastas.ts` e adicione um item por pasta que quiser
-destacar na tela inicial, por exemplo uma entrada para cada uma de GERE,
-GOMAN, GSTC e Trilha de Segurança (usando o link de compartilhamento de cada
-subpasta em vez do link da pasta raiz):
-
-```ts
-export const atalhos: Atalho[] = [
-	{ nome: 'GERE - CGB', url: 'https://cgbengenharia-my.sharepoint.com/...' },
-	{ nome: 'GOMAN - CGB', url: 'https://cgbengenharia-my.sharepoint.com/...' }
-	// ...
-];
+```bash
+npm run sync
 ```
+
+Isso recopia tudo de origem para `static/pops` e regenera o manifesto
+(arquivos removidos na origem também somem do site). Depois:
+
+```bash
+npm run dev -- --open   # conferir localmente
+```
+
+Quando estiver tudo certo, faça commit e push — a Vercel republica sozinha.
+
+```bash
+git add -A
+git commit -m "Atualiza procedimentos operacionais"
+git push
+```
+
+### Apontando para outra pasta de origem
+
+Por padrão o script usa a pasta
+`PROCEDIMENTOS OPERACIONAIS - CGB` (irmã deste projeto, dentro de
+"Área de Trabalho"). Para usar outro caminho:
+
+```bash
+SOURCE_DIR="C:\caminho\para\a\pasta" npm run sync
+```
+
+Tipos de arquivo copiados: `.pdf`, `.docx`, `.xlsx`, `.pptx` (e as versões
+antigas `.doc`, `.xls`, `.ppt`). Pastas vazias (ou só com arquivos de tipos
+não suportados) não aparecem na navegação. Arquivos temporários do Office
+(que começam com `~$`) são sempre ignorados.
 
 ## Rodar localmente
 
 ```bash
 npm install
+npm run sync   # copia os arquivos e gera o manifesto (necessário na 1ª vez)
 npm run dev -- --open
 ```
 
 ## Publicar na Vercel
 
-1. Suba este projeto para um repositório Git (GitHub/GitLab/Bitbucket).
+1. Suba este projeto (incluindo `static/pops`) para um repositório Git
+   (GitHub/GitLab/Bitbucket).
 2. Em https://vercel.com, **Add New → Project** e importe o repositório.
 3. Deploy — não precisa configurar nenhuma variável de ambiente.
+4. Para publicar atualizações depois, basta repetir "Atualizando o conteúdo"
+   acima e dar `git push` — a Vercel redeploya automaticamente.
 
 ## Estrutura
 
-- `src/lib/data/pastas.ts` — lista de atalhos (nome + link do OneDrive).
-- `src/routes/+page.svelte` — tela inicial com os cards.
+- `scripts/sync-pops.mjs` — copia os arquivos da pasta local de origem para
+  `static/pops` e gera `src/lib/data/manifest.json`.
+- `src/lib/data/manifest.json` — árvore de pastas/arquivos (gerada, não editar
+  à mão).
+- `src/lib/pops.ts` — funções auxiliares de navegação/busca sobre o manifesto.
+- `src/routes/+page.svelte` — tela inicial com os cards de categoria e busca
+  global.
+- `src/routes/p/[...slug]/+page.svelte` — navegação de pastas e visualizador
+  de arquivo (uma única rota cuida dos dois casos).
 - `src/routes/+layout.svelte` — cabeçalho e estilos globais.

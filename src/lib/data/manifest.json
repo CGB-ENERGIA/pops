@@ -1,0 +1,955 @@
+{
+	"type": "folder",
+	"name": "Procedimentos Operacionais",
+	"slug": [],
+	"children": [
+		{
+			"type": "folder",
+			"name": "GOMAN - CGB",
+			"slug": [
+				"GOMAN - CGB"
+			],
+			"children": [
+				{
+					"type": "folder",
+					"name": "CONSTRUÇÃO",
+					"slug": [
+						"GOMAN - CGB",
+						"CONSTRUÇÃO"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 341170,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00202.EQTL - 03 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00202.EQTL - 03 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 317559,
+							"modified": "2026-09-09T12:51:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00284.EQTL - 05 - POP.00284.EQTL - Execução de Serviço Eletricos sob Condições Climáticas Adversas (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00284.EQTL - 05 - POP.00284.EQTL - Execução de Serviço Eletricos sob Condições Climáticas Adversas (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 302639,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1862655,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição (2).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição (2).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 253673,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 8100720,
+							"modified": "2026-09-09T12:51:40.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 415671,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4855757,
+							"modified": "2026-09-09T12:51:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4661677,
+							"modified": "2026-09-09T12:55:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 392881,
+							"modified": "2026-09-09T12:55:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1018569,
+							"modified": "2026-09-09T12:55:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4059414,
+							"modified": "2026-09-09T12:51:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01067.EQTL - 03 - POP.01067.EQTL - Construção de redes aéreas de média e baixa tensão desenergizadas.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.01067.EQTL - 03 - POP.01067.EQTL - Construção de redes aéreas de média e baixa tensão desenergizadas.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 3071143,
+							"modified": "2026-09-09T12:51:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"CONSTRUÇÃO",
+								"POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 147081,
+							"modified": "2026-09-09T12:51:42.000Z"
+						}
+					]
+				},
+				{
+					"type": "folder",
+					"name": "LINHA VIVA",
+					"slug": [
+						"GOMAN - CGB",
+						"LINHA VIVA"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00110.EQTL - 02 - POP.00110.EQTL - Atividades Preliminares de Segurança.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00110.EQTL - 02 - POP.00110.EQTL - Atividades Preliminares de Segurança.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 2788035,
+							"modified": "2026-09-09T13:32:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00111.EQTL.PDF",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00111.EQTL.PDF"
+							],
+							"ext": "pdf",
+							"sizeBytes": 6724295,
+							"modified": "2026-09-09T13:32:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00112.EQTL - 02 - POP.00112.EQTL - Atividades Preliminares de Segurança para Trabalho Elétrico.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00112.EQTL - 02 - POP.00112.EQTL - Atividades Preliminares de Segurança para Trabalho Elétrico.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 360185,
+							"modified": "2026-09-09T13:32:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00115.EQTL - 01 - POP.00115.EQTL - Inspeção em Equipamento de Proteção Individual e Coletiva.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00115.EQTL - 01 - POP.00115.EQTL - Inspeção em Equipamento de Proteção Individual e Coletiva.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 528313,
+							"modified": "2026-09-09T13:32:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 339695,
+							"modified": "2026-09-09T13:29:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 274692,
+							"modified": "2026-09-09T13:29:16.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1784684,
+							"modified": "2026-09-09T13:30:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"LINHA VIVA",
+								"POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1033147,
+							"modified": "2026-09-09T13:32:38.000Z"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "folder",
+			"name": "GSTC - CGB",
+			"slug": [
+				"GSTC - CGB"
+			],
+			"children": [
+				{
+					"type": "file",
+					"name": "Plano de Curso 4 - Plantão _Rev.4 (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"Plano de Curso 4 - Plantão _Rev.4 (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 196846,
+					"modified": "2026-09-09T13:04:02.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1) (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1) (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4892931,
+					"modified": "2026-09-01T20:13:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4269569,
+					"modified": "2026-09-01T20:43:22.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4304406,
+					"modified": "2026-09-03T14:15:42.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 3959447,
+					"modified": "2026-09-03T14:17:02.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00168.EQTL - 01 - POP.00168.EQTL  - Comunicação com o COI.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00168.EQTL - 01 - POP.00168.EQTL  - Comunicação com o COI.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 288699,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00202.EQTL - 02 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (6).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00202.EQTL - 02 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (6).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 303170,
+					"modified": "2026-08-13T11:59:58.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00226.EQTL - 01 - POP.00226.EQTL - Corte no disjuntor tipo Gavião - Revalidado.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00226.EQTL - 01 - POP.00226.EQTL - Corte no disjuntor tipo Gavião - Revalidado.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 106600,
+					"modified": "2026-08-14T17:08:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00228.EQTL - 01 - POP.00228.EQTL - Corte tipo Simbolicoo.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00228.EQTL - 01 - POP.00228.EQTL - Corte tipo Simbolicoo.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 91057,
+					"modified": "2026-08-14T17:08:36.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00233.EQTL - 01 - POP.00233.EQTL - Suspender Fornecimento Poder Público_Clientes Especiais.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00233.EQTL - 01 - POP.00233.EQTL - Suspender Fornecimento Poder Público_Clientes Especiais.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 111076,
+					"modified": "2026-08-14T17:07:24.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00245.EQTL - 01 - POP.00245.EQTL - Execução do Corte em Unidade Consumidora do Grupo Bb.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00245.EQTL - 01 - POP.00245.EQTL - Execução do Corte em Unidade Consumidora do Grupo Bb.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 2592695,
+					"modified": "2026-08-14T17:07:56.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4159263,
+					"modified": "2026-09-03T14:22:56.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo Bb.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo Bb.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 396501,
+					"modified": "2026-08-14T17:06:12.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (2).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (2).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 152011,
+					"modified": "2026-08-14T17:06:20.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Proo.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Proo.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 178263,
+					"modified": "2026-08-14T17:06:32.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00302.EQTL - 01 - POP.00302.EQTL - Financiamento de Padrãoo.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00302.EQTL - 01 - POP.00302.EQTL - Financiamento de Padrãoo.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 95942,
+					"modified": "2026-08-14T17:06:48.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00324.EQTL - Religação no Medidor ou Disjuntor.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00324.EQTL - Religação no Medidor ou Disjuntor.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 344400,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00325.EQTL - Religação no Poste.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00325.EQTL - Religação no Poste.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 349740,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00331.EQTL - 01 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00331.EQTL - 01 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 117929,
+					"modified": "2026-08-14T17:07:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00332.EQTL - Religação com Reposição de Ramal.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00332.EQTL - Religação com Reposição de Ramal.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 360501,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00334.EQTL - 01 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00334.EQTL - 01 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 97045,
+					"modified": "2026-08-14T17:07:08.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00335.EQTL - 01 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B1.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00335.EQTL - 01 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B1.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 307707,
+					"modified": "2026-08-14T17:09:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00440.EQTL - 01 - POP.00440.EQTL - Troca de porta fusível ou elo usando a ferramenta BY PASS em manutenção de rede desenergizada até 34,5 kV.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00440.EQTL - 01 - POP.00440.EQTL - Troca de porta fusível ou elo usando a ferramenta BY PASS em manutenção de rede desenergizada até 34,5 kV.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 267719,
+					"modified": "2025-05-02T13:51:58.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00454.EQTL - 01 - POP.00454.EQTL - Utilização de cesto áereo.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00454.EQTL - 01 - POP.00454.EQTL - Utilização de cesto áereo.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 563017,
+					"modified": "2024-11-05T17:57:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00465.EQTL - Utilização de esporas.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00465.EQTL - Utilização de esporas.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 374464,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 8100720,
+					"modified": "2026-09-03T14:43:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00473.EQTL - 01 - POP.00473.EQTL - Substituição de isolador roldana em tangente em manutenção de rede desenergizada até 34,5 kV.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00473.EQTL - 01 - POP.00473.EQTL - Substituição de isolador roldana em tangente em manutenção de rede desenergizada até 34,5 kV.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 68599,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00480.EQTL - 01 - POP.00480.EQTL - Substituição de amarração de condutor em circuito secundário em manutenção de rede desenergizada até 34,5 kV..docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00480.EQTL - 01 - POP.00480.EQTL - Substituição de amarração de condutor em circuito secundário em manutenção de rede desenergizada até 34,5 kV..docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 58242,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00481.EQTL - 01 - POP.00481.EQTL Substituição de armação secundária em tangente em manutenção de rede desenergizada até 34,5 kV.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00481.EQTL - 01 - POP.00481.EQTL Substituição de armação secundária em tangente em manutenção de rede desenergizada até 34,5 kV.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 76111,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00484.EQTL - 01 - POP.00484.EQTL - Substituição de armação secundária em encabeçamento (fim de linha) em manutenção de RD até 34,5 kV.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00484.EQTL - 01 - POP.00484.EQTL - Substituição de armação secundária em encabeçamento (fim de linha) em manutenção de RD até 34,5 kV.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 66301,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00489.EQTL - 01 - POP.00489.EQTL - Substituição de isolador roldana em encabeçamento de redes de BT cabo nu em manutenção de RD até 34,5 kV.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00489.EQTL - 01 - POP.00489.EQTL - Substituição de isolador roldana em encabeçamento de redes de BT cabo nu em manutenção de RD até 34,5 kV.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 64858,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00491.EQTL - 01 - ANEXO I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00491.EQTL - 01 - ANEXO I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 268443,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00491.EQTL - 01 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00491.EQTL - 01 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 578699,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00496.EQTL - 01 - POP.00496.EQTL - Emenda reparo de condutor secundário ( Rede de Baixa Tensão em circuito desenergizado) (1).docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00496.EQTL - 01 - POP.00496.EQTL - Emenda reparo de condutor secundário ( Rede de Baixa Tensão em circuito desenergizado) (1).docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 73840,
+					"modified": "2024-10-15T17:46:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00516.EQTL - 01 - POP.00516.EQTL - Supressão de vegetação, corte e poda de árvores.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00516.EQTL - 01 - POP.00516.EQTL - Supressão de vegetação, corte e poda de árvores.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 59114,
+					"modified": "2025-04-29T18:35:36.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00559.EQTL - 00 - POP.159 - Abrir Fechar Religador no SDMT.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00559.EQTL - 00 - POP.159 - Abrir Fechar Religador no SDMT.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 313262,
+					"modified": "2026-08-14T17:03:40.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00560.EQTL - 00 - POP.160- Bloquear religamento em religador no SDMT1.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00560.EQTL - 00 - POP.160- Bloquear religamento em religador no SDMT1.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 246223,
+					"modified": "2026-08-14T17:03:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00561.EQTL - 00 - POP.161- Realizar By-pass em religador  no SDMT1.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00561.EQTL - 00 - POP.161- Realizar By-pass em religador  no SDMT1.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 256158,
+					"modified": "2026-08-14T17:04:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00563.EQTL - 00 - POP.163- Realizar bypass em regulador de tensão no SDMT1.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00563.EQTL - 00 - POP.163- Realizar bypass em regulador de tensão no SDMT1.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 627179,
+					"modified": "2026-08-14T17:04:18.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4661677,
+					"modified": "2026-09-03T14:39:30.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00808.EQTL - 00 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.docx",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00808.EQTL - 00 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.docx"
+					],
+					"ext": "docx",
+					"sizeBytes": 71723,
+					"modified": "1980-01-01T03:00:00.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 392881,
+					"modified": "2026-09-03T14:39:36.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 281553,
+					"modified": "2026-08-13T18:25:06.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1789698,
+					"modified": "2026-08-13T18:23:06.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1018568,
+					"modified": "2026-08-13T18:22:34.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado (1).pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4059414,
+					"modified": "2026-09-03T14:43:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1663566,
+					"modified": "2026-08-14T17:05:20.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00962.EQTL - 03 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.00962.EQTL - 03 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 3490565,
+					"modified": "2026-08-14T17:05:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.01077.EQTL - 00 - Anexo I - Fluxo SI.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.01077.EQTL - 00 - Anexo I - Fluxo SI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 220641,
+					"modified": "2026-08-13T17:35:38.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf",
+					"slug": [
+						"GSTC - CGB",
+						"POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 147642,
+					"modified": "2026-08-13T17:35:38.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP011_2.PDF",
+					"slug": [
+						"GSTC - CGB",
+						"POP011_2.PDF"
+					],
+					"ext": "pdf",
+					"sizeBytes": 5506187,
+					"modified": "2026-08-28T12:18:52.000Z"
+				}
+			]
+		},
+		{
+			"type": "folder",
+			"name": "TRILHA DE SEGURANÇA",
+			"slug": [
+				"TRILHA DE SEGURANÇA"
+			],
+			"children": [
+				{
+					"type": "file",
+					"name": "POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4892931,
+					"modified": "2026-06-09T14:09:40.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4269569,
+					"modified": "2026-06-09T15:26:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4304406,
+					"modified": "2026-06-09T15:28:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 3959447,
+					"modified": "2026-06-09T15:29:14.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00168.EQTL - Comunicação com o COI (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00168.EQTL - Comunicação com o COI (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4127148,
+					"modified": "2026-06-09T15:31:06.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf",
+					"slug": [
+						"TRILHA DE SEGURANÇA",
+						"POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 4159263,
+					"modified": "2026-06-09T15:32:58.000Z"
+				}
+			]
+		},
+		{
+			"type": "file",
+			"name": "TRILHAS MÓDULOS E POPS - kit do multiplicador (1).xlsx",
+			"slug": [
+				"TRILHAS MÓDULOS E POPS - kit do multiplicador (1).xlsx"
+			],
+			"ext": "xlsx",
+			"sizeBytes": 79330,
+			"modified": "2026-09-09T13:03:04.000Z"
+		}
+	]
+}
