@@ -22,6 +22,8 @@
 		"vite": "^8.0.16"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^6.3.4"
+		"@sveltejs/adapter-vercel": "^6.3.4",
+		"mammoth": "^1.12.3",
+		"xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
 	}
 }

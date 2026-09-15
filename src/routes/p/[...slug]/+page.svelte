@@ -13,6 +13,7 @@
 		type FolderNode,
 		type FileNode
 	} from '$lib/pops';
+	import OfficePreview from '$lib/OfficePreview.svelte';
 
 	let { data }: { data: PageData } = $props();
 
@@ -44,6 +45,9 @@
 
 	let fileHrefUrl = $derived(file ? fileUrl(file.slug) : '');
 	let isPdf = $derived(file?.ext === 'pdf');
+	let isOffice = $derived(
+		file ? ['xlsx', 'xls', 'docx', 'doc'].includes(file.ext) : false
+	);
 </script>
 
 <svelte:head>
@@ -126,6 +130,10 @@
 	{#if isPdf}
 		<div class="viewer">
 			<iframe title={file.name} src={fileHrefUrl}></iframe>
+		</div>
+	{:else if isOffice}
+		<div class="viewer office">
+			<OfficePreview url={fileHrefUrl} ext={file.ext} />
 		</div>
 	{:else}
 		<div class="unsupported">
@@ -382,6 +390,11 @@
 		overflow: hidden;
 		background: var(--color-surface);
 		box-shadow: var(--shadow-sm);
+	}
+
+	.viewer.office {
+		height: auto;
+		overflow: auto;
 	}
 
 	.viewer iframe {
