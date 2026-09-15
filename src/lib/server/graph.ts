@@ -1,4 +1,5 @@
 import { env } from '$env/dynamic/private';
+import { getDelegatedAccessToken } from './msAuth';
 
 const GRAPH_BASE = 'https://graph.microsoft.com/v1.0';
 
@@ -22,41 +23,8 @@ function requiredEnv(name: string): string {
 	return value;
 }
 
-// --- token de acesso (client credentials) ---------------------------------
-
-let tokenCache: { value: string; expiresAt: number } | null = null;
-
-async function getAccessToken(): Promise<string> {
-	if (tokenCache && tokenCache.expiresAt > Date.now() + 30_000) {
-		return tokenCache.value;
-	}
-
-	const tenantId = requiredEnv('MS_TENANT_ID');
-	const clientId = requiredEnv('MS_CLIENT_ID');
-	const clientSecret = requiredEnv('MS_CLIENT_SECRET');
-
-	const res = await fetch(`https://login.microsoftonline.com/${tenantId}/oauth2/v2.0/token`, {
-		method: 'POST',
-		headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-		body: new URLSearchParams({
-			client_id: clientId,
-			client_secret: clientSecret,
-			scope: 'https://graph.microsoft.com/.default',
-			grant_type: 'client_credentials'
-		})
-	});
-
-	if (!res.ok) {
-		throw new Error(`Falha ao autenticar no Microsoft Graph: ${res.status} ${await res.text()}`);
-	}
-
-	const data = (await res.json()) as { access_token: string; expires_in: number };
-	tokenCache = { value: data.access_token, expiresAt: Date.now() + data.expires_in * 1000 };
-	return tokenCache.value;
-}
-
 async function graphFetch(path: string, init?: RequestInit): Promise<Response> {
-	const token = await getAccessToken();
+	const token = await getDelegatedAccessToken();
 	const url = path.startsWith('http') ? path : `${GRAPH_BASE}${path}`;
 	const res = await fetch(url, {
 		...init,
@@ -208,7 +176,7 @@ export async function getFileContent(
 	driveId: string,
 	itemId: string
 ): Promise<{ body: ReadableStream; contentType: string | null }> {
-	const token = await getAccessToken();
+	const token = await getDelegatedAccessToken();
 	const res = await fetch(`${GRAPH_BASE}/drives/${driveId}/items/${itemId}/content`, {
 		headers: { Authorization: `Bearer ${token}` },
 		redirect: 'follow'
