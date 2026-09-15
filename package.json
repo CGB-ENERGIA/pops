@@ -26,6 +26,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^6.3.4",
 		"mammoth": "^1.12.3",
+		"pdfjs-dist": "^6.3.289",
 		"xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
 	}
 }

@@ -69,6 +69,18 @@ export default defineConfig({
 							expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 180 },
 							cacheableResponse: { statuses: [0, 200] }
 						}
+					},
+					{
+						// leitor de PDF (pdf.js) e sua worker: carregados sob demanda, não faz
+						// sentido pré-carregar no primeiro acesso, mas precisam ficar em cache
+						// depois de usados uma vez para o leitor funcionar offline
+						urlPattern: ({ url }) => url.pathname.endsWith('.mjs'),
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'pdf-reader',
+							expiration: { maxEntries: 20, maxAgeSeconds: 60 * 60 * 24 * 365 },
+							cacheableResponse: { statuses: [0, 200] }
+						}
 					}
 				]
 			},
