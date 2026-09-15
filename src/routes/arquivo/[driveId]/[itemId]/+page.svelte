@@ -3,9 +3,11 @@
 
 	let { data }: { data: PageData } = $props();
 
-	let fileUrl = $derived(`/api/file/${data.file.id}`);
+	let fileUrl = $derived(`/api/file/${data.file.driveId}/${data.file.itemId}`);
 	let isPdf = $derived(data.file.mimeType === 'application/pdf');
-	let backHref = $derived(data.parentId ? `/pasta/${data.parentId}` : '/');
+	let backHref = $derived(
+		data.parent ? `/pasta/${data.parent.driveId}/${data.parent.itemId}` : '/'
+	);
 </script>
 
 <svelte:head>
@@ -13,8 +15,8 @@
 </svelte:head>
 
 <nav class="breadcrumb" aria-label="Caminho do arquivo">
-	{#each data.breadcrumb as crumb (crumb.id)}
-		<a href={`/pasta/${crumb.id}`}>{crumb.name}</a>
+	{#each data.breadcrumb as crumb (crumb.itemId)}
+		<a href={`/pasta/${crumb.driveId}/${crumb.itemId}`}>{crumb.name}</a>
 		<span class="sep">/</span>
 	{/each}
 	<span class="current">{data.file.name}</span>

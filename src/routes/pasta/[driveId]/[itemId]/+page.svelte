@@ -14,12 +14,10 @@
 	let folders = $derived(filtered.filter((i) => i.isFolder));
 	let files = $derived(filtered.filter((i) => !i.isFolder));
 
-	function formatSize(bytes?: string) {
+	function formatSize(bytes?: number) {
 		if (!bytes) return '';
-		const n = Number(bytes);
-		if (!n) return '';
-		if (n < 1024 * 1024) return `${(n / 1024).toFixed(0)} KB`;
-		return `${(n / (1024 * 1024)).toFixed(1)} MB`;
+		if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(0)} KB`;
+		return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 	}
 </script>
 
@@ -28,12 +26,12 @@
 </svelte:head>
 
 <nav class="breadcrumb" aria-label="Caminho da pasta">
-	{#each data.breadcrumb as crumb, i (crumb.id)}
+	{#each data.breadcrumb as crumb, i (crumb.itemId)}
 		{#if i > 0}<span class="sep">/</span>{/if}
 		{#if i === data.breadcrumb.length - 1}
 			<span class="current">{crumb.name}</span>
 		{:else}
-			<a href={`/pasta/${crumb.id}`}>{crumb.name}</a>
+			<a href={`/pasta/${crumb.driveId}/${crumb.itemId}`}>{crumb.name}</a>
 		{/if}
 	{/each}
 </nav>
@@ -48,7 +46,7 @@
 	<ul class="list">
 		{#each folders as item (item.id)}
 			<li>
-				<a class="row" href={`/pasta/${item.id}`}>
+				<a class="row" href={`/pasta/${data.driveId}/${item.id}`}>
 					<span class="icon folder-icon" aria-hidden="true">📁</span>
 					<span class="name">{item.name}</span>
 					<span class="chevron" aria-hidden="true">›</span>
@@ -57,7 +55,7 @@
 		{/each}
 		{#each files as item (item.id)}
 			<li>
-				<a class="row" href={`/arquivo/${item.id}`}>
+				<a class="row" href={`/arquivo/${data.driveId}/${item.id}`}>
 					<span class="icon file-icon" aria-hidden="true">📄</span>
 					<span class="name">{item.name}</span>
 					{#if item.size}<span class="meta">{formatSize(item.size)}</span>{/if}

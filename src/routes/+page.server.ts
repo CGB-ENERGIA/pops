@@ -1,6 +1,7 @@
 import { redirect } from '@sveltejs/kit';
-import { rootFolderId } from '$lib/server/drive';
+import { getRoot } from '$lib/server/graph';
 
-export function load() {
-	redirect(307, `/pasta/${rootFolderId()}`);
+export async function load() {
+	const root = await getRoot();
+	redirect(307, `/pasta/${root.driveId}/${root.itemId}`);
 }
