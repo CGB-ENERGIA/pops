@@ -1,8 +1,18 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
+	import favicon from '$lib/assets/app-icon.svg';
 	import '../app.css';
 
 	let { children } = $props();
+
+	onMount(() => {
+		if (browser && 'serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js').catch((err) => {
+				console.error('Falha ao registrar service worker:', err);
+			});
+		}
+	});
 </script>
 
 <svelte:head>
