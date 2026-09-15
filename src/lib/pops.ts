@@ -117,3 +117,28 @@ export function categoryColor(topName: string): string {
 	for (let i = 0; i < topName.length; i++) hash = (hash * 31 + topName.charCodeAt(i)) >>> 0;
 	return CATEGORY_COLORS[hash % CATEGORY_COLORS.length];
 }
+
+const POP_CODE_RE = /POP\.?\s*0*(\d+)/i;
+// Casa um prefixo "POP.00168[.EQTL] - 02 - " (código + opcional revisão) no
+// início do nome, para remover repetições dele e sobrar só a descrição.
+const CODE_PREFIX_RE = /^POP\.?\s*0*\d+(\.[A-Z]+)?\s*-\s*(\d+\s*-\s*)?/i;
+
+// Nome de exibição curto, ex.: "POP.00168.EQTL - 02 - POP.00168.EQTL - Comunicação
+// com o COI.pdf" -> "POP-168 · Comunicação com o COI". Os nomes originais repetem
+// o código do POP duas vezes, o que truncava feio nas listas do celular.
+export function shortLabel(name: string): string {
+	const noExt = name.replace(/\.[a-zA-Z0-9]+$/, '');
+	const match = noExt.match(POP_CODE_RE);
+	if (!match) return noExt;
+
+	const code = `POP-${match[1]}`;
+	const tail = noExt.replace(CODE_PREFIX_RE, '').replace(CODE_PREFIX_RE, '').trim();
+	return tail ? `${code} · ${tail}` : code;
+}
+
+// Aplica shortLabel a uma lista de arquivos.
+export function labelFiles<T extends { name: string }>(items: T[]): Map<T, string> {
+	const result = new Map<T, string>();
+	for (const item of items) result.set(item, shortLabel(item.name));
+	return result;
+}

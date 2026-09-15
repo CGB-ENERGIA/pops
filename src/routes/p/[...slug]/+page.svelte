@@ -10,6 +10,7 @@
 		extColor,
 		categoryColor,
 		initials,
+		labelFiles,
 		type FolderNode,
 		type FileNode
 	} from '$lib/pops';
@@ -42,6 +43,8 @@
 	let breadcrumb = $derived(
 		slug.map((name, i) => ({ name, href: folderHref(slug.slice(0, i + 1)) }))
 	);
+
+	let fileLabels = $derived(labelFiles(filteredFiles));
 
 	let fileHrefUrl = $derived(file ? fileUrl(file.slug) : '');
 	let isPdf = $derived(file?.ext === 'pdf');
@@ -102,9 +105,9 @@
 			<ul class="file-list">
 				{#each filteredFiles as f (f.slug.join('/'))}
 					<li>
-						<a class="file-row" href={fileHref(f.slug)}>
+						<a class="file-row" href={fileHref(f.slug)} title={f.name}>
 							<span class="ext-badge" style:background={extColor(f.ext)}>{extLabel(f.ext)}</span>
-							<span class="file-name">{f.name}</span>
+							<span class="file-name">{fileLabels.get(f)}</span>
 							<span class="file-size">{formatSize(f.sizeBytes)}</span>
 							<span class="chevron" aria-hidden="true">›</span>
 						</a>

@@ -10,11 +10,14 @@
 		extColor,
 		categoryColor,
 		initials,
-		type FolderNode
+		labelFiles,
+		type FolderNode,
+		type FileNode
 	} from '$lib/pops';
 
 	const categories = root.children.filter((c) => c.type === 'folder') as FolderNode[];
-	const rootFiles = root.children.filter((c) => c.type === 'file');
+	const rootFiles = root.children.filter((c) => c.type === 'file') as FileNode[];
+	const rootFileLabels = labelFiles(rootFiles);
 	const allFiles = flattenFiles();
 	const totalFiles = allFiles.length;
 
@@ -27,6 +30,8 @@
 				)
 			: []
 	);
+
+	let resultLabels = $derived(labelFiles(results.map((r) => r.file)));
 </script>
 
 <svelte:head>
@@ -54,10 +59,10 @@
 		<ul class="file-list">
 			{#each results as { file, parentSlug } (file.slug.join('/'))}
 				<li>
-					<a class="file-row" href={fileHref(file.slug)}>
+					<a class="file-row" href={fileHref(file.slug)} title={file.name}>
 						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
 						<span class="file-text">
-							<span class="file-name">{file.name}</span>
+							<span class="file-name">{resultLabels.get(file)}</span>
 							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
 						</span>
 						<span class="file-size">{formatSize(file.sizeBytes)}</span>
@@ -89,9 +94,9 @@
 		<ul class="file-list">
 			{#each rootFiles as f (f.slug.join('/'))}
 				<li>
-					<a class="file-row" href={fileHref(f.slug)}>
+					<a class="file-row" href={fileHref(f.slug)} title={f.name}>
 						<span class="ext-badge" style:background={extColor(f.ext)}>{extLabel(f.ext)}</span>
-						<span class="file-name">{f.name}</span>
+						<span class="file-name">{rootFileLabels.get(f)}</span>
 						<span class="file-size">{formatSize(f.sizeBytes)}</span>
 						<span class="chevron" aria-hidden="true">›</span>
 					</a>
