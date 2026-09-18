@@ -826,6 +826,220 @@
 				},
 				{
 					"type": "folder",
+					"name": "EQUIPAMENTOS",
+					"slug": [
+						"GOMAN - CGB",
+						"EQUIPAMENTOS"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - Anexo I - Religador Cooper controle Form6.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - Anexo I - Religador Cooper controle Form6.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 969276,
+							"modified": "2026-09-18T14:08:41.459Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - Anexo II - Religador Ecil.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - Anexo II - Religador Ecil.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 641624,
+							"modified": "2026-09-18T14:08:41.497Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - Anexo III - Religador Nulec.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - Anexo III - Religador Nulec.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 569040,
+							"modified": "2026-09-18T14:08:41.515Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - Anexo IV - Religador Noja.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - Anexo IV - Religador Noja.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 830207,
+							"modified": "2026-09-18T14:08:41.533Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - Anexo V - Religador ARTECHE.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - Anexo V - Religador ARTECHE.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 335077,
+							"modified": "2026-09-18T14:08:41.569Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00559.EQTL - 01 - POP.00559.EQTL - Abrir Fechar Religador no SDMT.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00559.EQTL - 01 - POP.00559.EQTL - Abrir Fechar Religador no SDMT.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 614308,
+							"modified": "2026-09-18T14:08:41.553Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1819788,
+							"modified": "2026-09-18T14:08:41.592Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - Anexo II - Religador Ecil (3).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - Anexo II - Religador Ecil (3).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 291222,
+							"modified": "2026-09-18T14:08:41.606Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - Anexo III - Religador Nulec.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - Anexo III - Religador Nulec.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 715273,
+							"modified": "2026-09-18T14:08:41.621Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - Anexo IV - Religador Noja (3).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - Anexo IV - Religador Noja (3).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 276215,
+							"modified": "2026-09-18T14:08:41.647Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - Anexo V - Religador Arteche.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - Anexo V - Religador Arteche.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 812326,
+							"modified": "2026-09-18T14:08:41.665Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00560.EQTL - 01 - POP.560.EQTL - Bloquear religamento em religador no SDMT.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00560.EQTL - 01 - POP.560.EQTL - Bloquear religamento em religador no SDMT.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 118722,
+							"modified": "2026-09-18T14:08:41.633Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00561.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00561.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1819788,
+							"modified": "2026-09-18T14:08:41.707Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00561.EQTL - 01 - Anexo II - Religador Ecil (3).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00561.EQTL - 01 - Anexo II - Religador Ecil (3).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 291223,
+							"modified": "2026-09-18T14:08:41.684Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00561.EQTL - 01 - Anexo III - Religador Nulec.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00561.EQTL - 01 - Anexo III - Religador Nulec.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 715273,
+							"modified": "2026-09-18T14:08:41.723Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00561.EQTL - 01 - Anexo IV - Religador Noja (3).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00561.EQTL - 01 - Anexo IV - Religador Noja (3).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 276214,
+							"modified": "2026-09-18T14:08:41.736Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00561.EQTL - 01 - POP.00561.EQTL - Realizar By-pass em religador  no SDMT.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"EQUIPAMENTOS",
+								"POP.00561.EQTL - 01 - POP.00561.EQTL - Realizar By-pass em religador  no SDMT.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 132688,
+							"modified": "2026-09-18T14:08:41.748Z"
+						}
+					]
+				},
+				{
+					"type": "folder",
 					"name": "LINHA VIVA",
 					"slug": [
 						"GOMAN - CGB",
