@@ -12,6 +12,7 @@
 			"children": [
 				{
 					"type": "file",
+					"id": "5fe06103b00f",
 					"name": "POP.00293.EQTL - 03 - Anexo I - Termo de Ocorrência e Inspeção - TOI_MA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -23,6 +24,7 @@
 				},
 				{
 					"type": "file",
+					"id": "a29e5952f3e7",
 					"name": "POP.00293.EQTL - 03 - Anexo II - Termo de Ocorrência e Inspeção - TOI_PA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -34,6 +36,7 @@
 				},
 				{
 					"type": "file",
+					"id": "8bff4e66fcf5",
 					"name": "POP.00293.EQTL - 03 - Anexo III - Termo de Ocorrência e Inspeção - TOI_PI.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -45,6 +48,7 @@
 				},
 				{
 					"type": "file",
+					"id": "634286b34b6f",
 					"name": "POP.00293.EQTL - 03 - Anexo IV - Termo de Ocorrência e Inspeção - TOI_AL.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -56,6 +60,7 @@
 				},
 				{
 					"type": "file",
+					"id": "a1991e03990c",
 					"name": "POP.00293.EQTL - 03 - Anexo IX - Termo de Notificação e Informações Complementares_PI.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -67,6 +72,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4b3c19cf1bce",
 					"name": "POP.00293.EQTL - 03 - Anexo V - Termo de Ocorrência e Inspeção - TOI_RS.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -78,6 +84,7 @@
 				},
 				{
 					"type": "file",
+					"id": "75ace11362c9",
 					"name": "POP.00293.EQTL - 03 - Anexo VI - Termo de Ocorrência e Inspeção - TOI_AP.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -89,6 +96,7 @@
 				},
 				{
 					"type": "file",
+					"id": "77dfb608bc43",
 					"name": "POP.00293.EQTL - 03 - Anexo VII - Termo de Notificação e Informações Complementares Grupo B_MA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -100,6 +108,7 @@
 				},
 				{
 					"type": "file",
+					"id": "5f4eabdf60f3",
 					"name": "POP.00293.EQTL - 03 - Anexo VIII - Termo de Notificação e Informações Complementares Grupo B_PA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -111,6 +120,7 @@
 				},
 				{
 					"type": "file",
+					"id": "a4a85e940ffe",
 					"name": "POP.00293.EQTL - 03 - Anexo X - Termo de Notificação e Informações Complementares Grupo B_AL.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -122,6 +132,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4f463d6b1954",
 					"name": "POP.00293.EQTL - 03 - Anexo XI -Termo de Notificação e Informações Complementares Grupo B_RS.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -133,6 +144,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ba3e565244f2",
 					"name": "POP.00293.EQTL - 03 - Anexo XII -Termo de Notificação e Informações Complementares Grupo B_AP.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -144,6 +156,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ea9b2dbb7fe3",
 					"name": "POP.00293.EQTL - 03 - Anexo XIII -Termo de Notificação e Informações Complementares Grupo B_GOIÁS.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -155,6 +168,7 @@
 				},
 				{
 					"type": "file",
+					"id": "cb509f87a52d",
 					"name": "POP.00293.EQTL - 03 - Anexo XIV - Termo de Regularização - Clandestino MA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -166,6 +180,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b029ee35a689",
 					"name": "POP.00293.EQTL - 03 - Anexo XIX - Termo de Regularização - Clandestino_AMAPÁ AP.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -177,6 +192,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e5b68210655c",
 					"name": "POP.00293.EQTL - 03 - Anexo XV - Termo de Regularização - Clandestino PA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -188,6 +204,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b703afc2752f",
 					"name": "POP.00293.EQTL - 03 - Anexo XVI - Termo de Regularização - Clandestino PI.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -199,6 +216,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f1b0843a5388",
 					"name": "POP.00293.EQTL - 03 - Anexo XVII - Termo de Regularização - Clandestino AL.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -210,6 +228,7 @@
 				},
 				{
 					"type": "file",
+					"id": "5c239f7ed8a8",
 					"name": "POP.00293.EQTL - 03 - Anexo XVIII - Termo de Regularização RS_ TR.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -221,6 +240,7 @@
 				},
 				{
 					"type": "file",
+					"id": "031df04c25da",
 					"name": "POP.00293.EQTL - 03 - Anexo XX - Termo de Regularização - Clandestino_GOIÁS.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -232,6 +252,7 @@
 				},
 				{
 					"type": "file",
+					"id": "a4d00321bd99",
 					"name": "POP.00293.EQTL - 03 - Anexo XXI - Manual de Procedimentos de Inspeção em Unidades de Baixa Tensão (Laudo Padrão).pdf",
 					"slug": [
 						"GERE - CGB",
@@ -243,6 +264,7 @@
 				},
 				{
 					"type": "file",
+					"id": "6bdde03df108",
 					"name": "POP.00293.EQTL - 03 - POP.00293.EQTL - Inspecionar Unidades do Grupo B.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -254,6 +276,7 @@
 				},
 				{
 					"type": "file",
+					"id": "8350227452b8",
 					"name": "POP.00296.EQTL - 05 - POP.00296.EQTL - Inspeção em Unidades do Grupo A e Grupo B Indireto.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -265,6 +288,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e563b8b53fd1",
 					"name": "POP.00297.EQTL - 03 - ANEXO I - Guia para baixa de Notas de Serviços no SAP.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -276,6 +300,7 @@
 				},
 				{
 					"type": "file",
+					"id": "bec4986a87cd",
 					"name": "POP.00297.EQTL - 03 - ANEXO II - Guia para baixa de Notas de Serviços no AJURI.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -287,6 +312,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b43a01c33a68",
 					"name": "POP.00297.EQTL - 03 - POP.00297.EQTL - Instalação do sistema de medição e cadastro comercial.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -298,6 +324,7 @@
 				},
 				{
 					"type": "file",
+					"id": "83dd866d94e3",
 					"name": "POP.00311.EQTL - 02 - POP.00311.EQTL - Comissionamento de Obra do SMC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -309,6 +336,7 @@
 				},
 				{
 					"type": "file",
+					"id": "121fc01fd2c7",
 					"name": "POP.00317.EQTL - 02 - POP.00317.EQTL - Controlar e Distribuir Lacres de Segurança.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -320,6 +348,7 @@
 				},
 				{
 					"type": "file",
+					"id": "93f85217e7ee",
 					"name": "POP.00321.EQTL - 02 - POP.00321.EQTL - Realizar leituras e entrega de contas do GA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -331,6 +360,7 @@
 				},
 				{
 					"type": "file",
+					"id": "7cb183553d87",
 					"name": "POP.00322.EQTL - 01 - ANEXO I - Guia para baixa de Notas de Serviços.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -342,6 +372,7 @@
 				},
 				{
 					"type": "file",
+					"id": "02b76108a04e",
 					"name": "POP.00322.EQTL - 01 - POP.00322.EQTL - Executar Baixa em Nota de Serviço de Minigeração.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -353,6 +384,7 @@
 				},
 				{
 					"type": "file",
+					"id": "95e6380aa6ef",
 					"name": "POP.00323.EQTL - 01 - Anexo I - Formulário de Solicitação de Acesso.xlsx",
 					"slug": [
 						"GERE - CGB",
@@ -364,6 +396,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b8d3b7d8c525",
 					"name": "POP.00323.EQTL - 01 - Anexo II - Formulário de Solicitação de Vistoria.xlsx",
 					"slug": [
 						"GERE - CGB",
@@ -375,6 +408,7 @@
 				},
 				{
 					"type": "file",
+					"id": "cae6551dcfbc",
 					"name": "POP.00323.EQTL - 01 - Anexo III - Relatório de Vistoria.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -386,6 +420,7 @@
 				},
 				{
 					"type": "file",
+					"id": "aa9f0a7e7c4a",
 					"name": "POP.00323.EQTL - 01 - Anexo IV - Termo de Ocorre_ncia e Inspeça_o - TOI_MA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -397,6 +432,7 @@
 				},
 				{
 					"type": "file",
+					"id": "3dcee184033d",
 					"name": "POP.00323.EQTL - 01 - Anexo IX - Termo de Ocorre_ncia e Inspeça_o - TOI_AP.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -408,6 +444,7 @@
 				},
 				{
 					"type": "file",
+					"id": "5b8e3219bcb0",
 					"name": "POP.00323.EQTL - 01 - Anexo V - Termo de Ocorre_ncia e Inspeça_o - TOI_PA.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -419,6 +456,7 @@
 				},
 				{
 					"type": "file",
+					"id": "0a45eaa81991",
 					"name": "POP.00323.EQTL - 01 - Anexo VI - Termo de Ocorre_ncia e Inspeça_o - TOI_PI.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -430,6 +468,7 @@
 				},
 				{
 					"type": "file",
+					"id": "cf94b4606e66",
 					"name": "POP.00323.EQTL - 01 - Anexo VII - Termo de Ocorre_ncia e Inspeça_o - TOI_AL.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -441,6 +480,7 @@
 				},
 				{
 					"type": "file",
+					"id": "10b2962708cf",
 					"name": "POP.00323.EQTL - 01 - Anexo VIII - Termo de Ocorre_ncia e Inspeça_o - TOI_RS.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -452,6 +492,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4d91aa0e223c",
 					"name": "POP.00323.EQTL - 01 - Anexo X - Termo de Notificação e Informações Complementares_Grupo A_MA_ TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -463,6 +504,7 @@
 				},
 				{
 					"type": "file",
+					"id": "628d0f631ff3",
 					"name": "POP.00323.EQTL - 01 - Anexo XI - Termo de Notificação e Informações Complementares_Grupo A_PA_ TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -474,6 +516,7 @@
 				},
 				{
 					"type": "file",
+					"id": "092f9c3b4ec3",
 					"name": "POP.00323.EQTL - 01 - Anexo XII - Termo de Notificação e Informações Complementares_Grupo A_PI_ TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -485,6 +528,7 @@
 				},
 				{
 					"type": "file",
+					"id": "03d26362767c",
 					"name": "POP.00323.EQTL - 01 - Anexo XIII - Termo de Notificação e Informações Complementares_Grupo A_AL_ TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -496,6 +540,7 @@
 				},
 				{
 					"type": "file",
+					"id": "3db722fb4b0a",
 					"name": "POP.00323.EQTL - 01 - Anexo XIV - Termo de Notificação e Informações Complementares A_Grupo A_RS _ TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -507,6 +552,7 @@
 				},
 				{
 					"type": "file",
+					"id": "299a2881b2de",
 					"name": "POP.00323.EQTL - 01 - Anexo XV - Termo de Notificação e Informações Complementares_Grupo A_AP- TNIC.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -518,6 +564,7 @@
 				},
 				{
 					"type": "file",
+					"id": "2dff131cbe31",
 					"name": "POP.00323.EQTL - 01 - POP.00323.EQTL - Vistoria e Comissionamento de Minigeracao.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -529,6 +576,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b1091a6be161",
 					"name": "POP.00327.EQTL - 01 - Anexo I - Relatório de vistoria.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -540,6 +588,7 @@
 				},
 				{
 					"type": "file",
+					"id": "6ca25b4e8925",
 					"name": "POP.00327.EQTL - 01 - POP.00327.EQTL - Vistoria e Comissionamento de Clientes para Migração ao Ambiente de Contratação Livre.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -551,6 +600,7 @@
 				},
 				{
 					"type": "file",
+					"id": "3020fe3fdf3a",
 					"name": "POP.00401.EQTL - 02 - Anexo I – Modelo de Nota Técnica para Minigeração.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -562,6 +612,7 @@
 				},
 				{
 					"type": "file",
+					"id": "05145e1c8ea0",
 					"name": "POP.00401.EQTL - 02 - Anexo II - Modelo Nota Técnica para Microgd e Minigd com inversão de fluxo.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -573,6 +624,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ce84fa19552d",
 					"name": "POP.00401.EQTL - 02 - Anexo III - Divisão de Central Geradora.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -584,6 +636,7 @@
 				},
 				{
 					"type": "file",
+					"id": "3d954f29b114",
 					"name": "POP.00401.EQTL - 02 - Anexo IV - !Parâmetros LT e Tabela de cabos_EQTL.xlsm",
 					"slug": [
 						"GERE - CGB",
@@ -595,6 +648,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b7fcd0e6cd45",
 					"name": "POP.00401.EQTL - 02 - Anexo V - Planilha de Tratamento de Medições.xlsm",
 					"slug": [
 						"GERE - CGB",
@@ -606,6 +660,7 @@
 				},
 				{
 					"type": "file",
+					"id": "fa2ed80ecb8d",
 					"name": "POP.00401.EQTL - 02 - POP.00401.EQTL - 02 - POP.00401.EQTL - Análise de Conexão de Minigeração.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -617,6 +672,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f36bd29142a9",
 					"name": "POP.01202.EQTL - 01 - Anexo I - Especificações técnicas quanto aos concentradores primário e secundário 1.pdf",
 					"slug": [
 						"GERE - CGB",
@@ -628,6 +684,7 @@
 				},
 				{
 					"type": "file",
+					"id": "bb746881964d",
 					"name": "POP.01202.EQTL - 01 - POP.01202.EQTL - Serviços para composição de Sistema de Medição Centralizada – SMC (3).pdf",
 					"slug": [
 						"GERE - CGB",
@@ -656,6 +713,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "62f721328dd3",
 							"name": "POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -668,6 +726,7 @@
 						},
 						{
 							"type": "file",
+							"id": "473c4702bbdb",
 							"name": "POP.00202.EQTL - 03 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -680,6 +739,7 @@
 						},
 						{
 							"type": "file",
+							"id": "6284289eebaa",
 							"name": "POP.00284.EQTL - 05 - POP.00284.EQTL - Execução de Serviço Eletricos sob Condições Climáticas Adversas (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -692,6 +752,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1094cc10822e",
 							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -704,6 +765,7 @@
 						},
 						{
 							"type": "file",
+							"id": "66c0741a97e9",
 							"name": "POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição (2).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -716,6 +778,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ff0aaaf62a59",
 							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -728,6 +791,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c76e83c3e127",
 							"name": "POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -740,6 +804,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f98dc8dbb683",
 							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -752,6 +817,7 @@
 						},
 						{
 							"type": "file",
+							"id": "cce29898f69f",
 							"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -764,6 +830,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c4221f92de85",
 							"name": "POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -776,6 +843,7 @@
 						},
 						{
 							"type": "file",
+							"id": "654e6d130c17",
 							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -788,6 +856,7 @@
 						},
 						{
 							"type": "file",
+							"id": "623834f66fbc",
 							"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -800,6 +869,7 @@
 						},
 						{
 							"type": "file",
+							"id": "4ee8d1e9c480",
 							"name": "POP.01067.EQTL - 03 - POP.01067.EQTL - Construção de redes aéreas de média e baixa tensão desenergizadas.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -812,6 +882,7 @@
 						},
 						{
 							"type": "file",
+							"id": "32911ddcc3c0",
 							"name": "POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -834,6 +905,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "c24ad920e5ad",
 							"name": "POP.00559.EQTL - 01 - Anexo I - Religador Cooper controle Form6.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -846,6 +918,7 @@
 						},
 						{
 							"type": "file",
+							"id": "6a8318c31416",
 							"name": "POP.00559.EQTL - 01 - Anexo II - Religador Ecil.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -858,6 +931,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c818b5f31414",
 							"name": "POP.00559.EQTL - 01 - Anexo III - Religador Nulec.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -870,6 +944,7 @@
 						},
 						{
 							"type": "file",
+							"id": "9a2115069250",
 							"name": "POP.00559.EQTL - 01 - Anexo IV - Religador Noja.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -882,6 +957,7 @@
 						},
 						{
 							"type": "file",
+							"id": "214cdb40c4e9",
 							"name": "POP.00559.EQTL - 01 - Anexo V - Religador ARTECHE.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -894,6 +970,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f5cf4cfd32e8",
 							"name": "POP.00559.EQTL - 01 - POP.00559.EQTL - Abrir Fechar Religador no SDMT.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -906,6 +983,7 @@
 						},
 						{
 							"type": "file",
+							"id": "964f04135d52",
 							"name": "POP.00560.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -918,6 +996,7 @@
 						},
 						{
 							"type": "file",
+							"id": "00572081b726",
 							"name": "POP.00560.EQTL - 01 - Anexo II - Religador Ecil (3).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -930,6 +1009,7 @@
 						},
 						{
 							"type": "file",
+							"id": "dcfd9d6c169c",
 							"name": "POP.00560.EQTL - 01 - Anexo III - Religador Nulec.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -942,6 +1022,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d5c3411ee427",
 							"name": "POP.00560.EQTL - 01 - Anexo IV - Religador Noja (3).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -954,6 +1035,7 @@
 						},
 						{
 							"type": "file",
+							"id": "741df4e2d67a",
 							"name": "POP.00560.EQTL - 01 - Anexo V - Religador Arteche.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -966,6 +1048,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f9d6fb622079",
 							"name": "POP.00560.EQTL - 01 - POP.560.EQTL - Bloquear religamento em religador no SDMT.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -978,6 +1061,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2fcb639efd8d",
 							"name": "POP.00561.EQTL - 01 - Anexo I - Religador Cooper Form6 (2).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -990,6 +1074,7 @@
 						},
 						{
 							"type": "file",
+							"id": "5166961a7158",
 							"name": "POP.00561.EQTL - 01 - Anexo II - Religador Ecil (3).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1002,6 +1087,7 @@
 						},
 						{
 							"type": "file",
+							"id": "9f694e7dc2b0",
 							"name": "POP.00561.EQTL - 01 - Anexo III - Religador Nulec.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1014,6 +1100,7 @@
 						},
 						{
 							"type": "file",
+							"id": "cc0372cf949d",
 							"name": "POP.00561.EQTL - 01 - Anexo IV - Religador Noja (3).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1026,6 +1113,7 @@
 						},
 						{
 							"type": "file",
+							"id": "199818e5faed",
 							"name": "POP.00561.EQTL - 01 - POP.00561.EQTL - Realizar By-pass em religador  no SDMT.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1048,6 +1136,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "1699dea8d883",
 							"name": "POP.00110.EQTL - 02 - POP.00110.EQTL - Atividades Preliminares de Segurança.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1060,6 +1149,7 @@
 						},
 						{
 							"type": "file",
+							"id": "70bd72b77edd",
 							"name": "POP.00111.EQTL.PDF",
 							"slug": [
 								"GOMAN - CGB",
@@ -1072,6 +1162,7 @@
 						},
 						{
 							"type": "file",
+							"id": "064348d7272d",
 							"name": "POP.00112.EQTL - 02 - POP.00112.EQTL - Atividades Preliminares de Segurança para Trabalho Elétrico.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1084,6 +1175,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0781063a95d3",
 							"name": "POP.00115.EQTL - 01 - POP.00115.EQTL - Inspeção em Equipamento de Proteção Individual e Coletiva.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1096,6 +1188,7 @@
 						},
 						{
 							"type": "file",
+							"id": "af01cd113a15",
 							"name": "POP.00168.EQTL - 02 - POP.00168.EQTL  - Comunicação com o COI.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1108,6 +1201,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a64de86987fd",
 							"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1120,6 +1214,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c588603bf4f8",
 							"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1132,6 +1227,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e05a7c6cb906",
 							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1154,6 +1250,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "4225838648bd",
 							"name": "POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1166,6 +1263,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e62359029558",
 							"name": "POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1178,6 +1276,7 @@
 						},
 						{
 							"type": "file",
+							"id": "39e8b16a3388",
 							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea (1).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1190,6 +1289,7 @@
 						},
 						{
 							"type": "file",
+							"id": "38754850d1e0",
 							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1202,6 +1302,7 @@
 						},
 						{
 							"type": "file",
+							"id": "53b909d01308",
 							"name": "POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1214,6 +1315,7 @@
 						},
 						{
 							"type": "file",
+							"id": "dae2f788c59a",
 							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1226,6 +1328,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ff66889da67b",
 							"name": "POP.00491.EQTL - 02 - Anexo I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1238,6 +1341,7 @@
 						},
 						{
 							"type": "file",
+							"id": "28f5923235e1",
 							"name": "POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1250,6 +1354,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e42defd89536",
 							"name": "POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de árvores em rede energizada em regime de Linha Viva até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1262,6 +1367,7 @@
 						},
 						{
 							"type": "file",
+							"id": "61e96179dd7b",
 							"name": "POP.00507.EQTL - 02 - POP.00507.EQTL - Realizar a correção dos defeitos inspecionados com as equipes.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1274,6 +1380,7 @@
 						},
 						{
 							"type": "file",
+							"id": "fb9ac061888b",
 							"name": "POP.00508.EQTL - 02 - POP.00508.EQTL - Realizar Inspeções Visuais em Rede áerea e Rede Subterrânea pelo MAN.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1286,6 +1393,7 @@
 						},
 						{
 							"type": "file",
+							"id": "737f1db40753",
 							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1298,6 +1406,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2a4dc08b9b2b",
 							"name": "POP.00533.EQTL - 03 - Anexo I - Instalação e Manutenção de Aterramento em estrutura de LD até 138 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1310,6 +1419,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2bfddcb10f23",
 							"name": "POP.00533.EQTL - 03 - POP.00533.EQTL - Instalação e Manutenção de Aterramento no topo da estrutura de concreto.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1322,6 +1432,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d988727f4c2d",
 							"name": "POP.00742.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1334,6 +1445,7 @@
 						},
 						{
 							"type": "file",
+							"id": "487e4a32cbcc",
 							"name": "POP.00742.EQTL - 00 - POP.00742.EQTL - Retirada de água de Câmaras Transformadoras e Poços de Inspeção.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1346,6 +1458,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a5c01780dc57",
 							"name": "POP.00743.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1358,6 +1471,7 @@
 						},
 						{
 							"type": "file",
+							"id": "27c7ddd4f310",
 							"name": "POP.00743.EQTL - 00 - POP.00743.EQTL - Monitorar atmosfera em locais confinados.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1370,6 +1484,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a80bff123ecb",
 							"name": "POP.00744.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1382,6 +1497,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3d1181f277ae",
 							"name": "POP.00744.EQTL - 00 - POP.00744.EQTL - Abrir e Fechar Tampa de Acesso Pessoal de Câmaras Transformadoras.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1394,6 +1510,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1963e795fd6f",
 							"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1406,6 +1523,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d8057f33a179",
 							"name": "POP.00748.EQTL - 01 - POP.00748.EQTL - Critérios de Manutenção de Equipamentos e Instalações.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1418,6 +1536,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3822fd2a5549",
 							"name": "POP.00755.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1430,6 +1549,7 @@
 						},
 						{
 							"type": "file",
+							"id": "01593bc5ae2b",
 							"name": "POP.00755.EQTL - 00 - POP.00755.EQTL - Realizar aterramento temporário em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1442,6 +1562,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c2e1f424cca3",
 							"name": "POP.00756.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1454,6 +1575,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d3ff0cc8eab8",
 							"name": "POP.00756.EQTL - 00 - POP.00756.EQTL - Instalação de Monitoramento de Camaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1466,6 +1588,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c279e47b0c25",
 							"name": "POP.00758.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1478,6 +1601,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3b6322c81c2e",
 							"name": "POP.00758.EQTL - 00 - POP.00758.EQTL - Instalação e Retirada de Equipamentos em Câmaras Transformadoras (TR, Bomba, Exaustor, Quadro Comando) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1490,6 +1614,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c9bad6e40359",
 							"name": "POP.00759.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1502,6 +1627,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2f930dd8ff71",
 							"name": "POP.00759.EQTL - 00 - POP.00759.EQTL - Abertura de Cabos em MT Potencialmente Energizados em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1514,6 +1640,7 @@
 						},
 						{
 							"type": "file",
+							"id": "78937ec65f4d",
 							"name": "POP.00760.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1526,6 +1653,7 @@
 						},
 						{
 							"type": "file",
+							"id": "748c379e13e4",
 							"name": "POP.00760.EQTL - 00 - POP.00760.EQTL - Confecção de Terminais Desconectaveis de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1538,6 +1666,7 @@
 						},
 						{
 							"type": "file",
+							"id": "de137a79f2e0",
 							"name": "POP.00761.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1550,6 +1679,7 @@
 						},
 						{
 							"type": "file",
+							"id": "5cda42b2aaa1",
 							"name": "POP.00761.EQTL - 00 - POP.00761.EQTL - Confecção de Emendas em Cabos de Média Tensão (cabos seco_seco e PILCC_seco) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1562,6 +1692,7 @@
 						},
 						{
 							"type": "file",
+							"id": "015f1e9c4e8f",
 							"name": "POP.00762.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1574,6 +1705,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3600fc6c54dc",
 							"name": "POP.00762.EQTL - 00 - POP.00762.EQTL - Confecção de Terminal Externo em Cabo de Baixa Tensão ( terminal em fachada) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1586,6 +1718,7 @@
 						},
 						{
 							"type": "file",
+							"id": "303c81c70b4a",
 							"name": "POP.00763.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1598,6 +1731,7 @@
 						},
 						{
 							"type": "file",
+							"id": "22ae00efcd25",
 							"name": "POP.00763.EQTL - 00 - POP.00763.EQTL - Confecção de Emendas e Terminais em Cabos de BT – Cabo Armado em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1610,6 +1744,7 @@
 						},
 						{
 							"type": "file",
+							"id": "608f3c468f07",
 							"name": "POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET). (14).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1622,6 +1757,7 @@
 						},
 						{
 							"type": "file",
+							"id": "464d9a94efd0",
 							"name": "POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET)..pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1634,6 +1770,7 @@
 						},
 						{
 							"type": "file",
+							"id": "9db5d8391822",
 							"name": "POP.00764.EQTL - 01 - POP.00764.EQTL - Utilização do Identificador de Cabos de Potência em Rede Distribuição Subterrânea MT em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1646,6 +1783,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0ba513678f5b",
 							"name": "POP.00767.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1658,6 +1796,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1e4a241badaf",
 							"name": "POP.00767.EQTL - 00 - POP.00767.EQTL - Inspeção em Câmaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1670,6 +1809,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2ba590b4ad5c",
 							"name": "POP.00768.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1682,6 +1822,7 @@
 						},
 						{
 							"type": "file",
+							"id": "b23591616c1e",
 							"name": "POP.00768.EQTL - 00 - POP.00768.EQTL - Inspeção em Caixas de Ligação (CL) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1694,6 +1835,7 @@
 						},
 						{
 							"type": "file",
+							"id": "5e43b9535512",
 							"name": "POP.00769.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1706,6 +1848,7 @@
 						},
 						{
 							"type": "file",
+							"id": "cd47f85cbae1",
 							"name": "POP.00769.EQTL - 00 - POP.00769.EQTL - Inspeção em Câmaras em Sala (CS) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1718,6 +1861,7 @@
 						},
 						{
 							"type": "file",
+							"id": "486cf9ecdba5",
 							"name": "POP.00770.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1730,6 +1874,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d278260acd85",
 							"name": "POP.00770.EQTL - 01 - POP.00770.EQTL - Inspeção em Caixas de Derivação (CDs) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1742,6 +1887,7 @@
 						},
 						{
 							"type": "file",
+							"id": "6623526763a9",
 							"name": "POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1754,6 +1900,7 @@
 						},
 						{
 							"type": "file",
+							"id": "8bbe3363b8fb",
 							"name": "POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1766,6 +1913,7 @@
 						},
 						{
 							"type": "file",
+							"id": "58582233df74",
 							"name": "POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1778,6 +1926,7 @@
 						},
 						{
 							"type": "file",
+							"id": "afc65abba57f",
 							"name": "POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1790,6 +1939,7 @@
 						},
 						{
 							"type": "file",
+							"id": "00eea3218e34",
 							"name": "POP.00773.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1802,6 +1952,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f4c611c0f68d",
 							"name": "POP.00773.EQTL - 01 - POP.00773.EQTL - Realizar medição de corrente instantânea e gráfica em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1814,6 +1965,7 @@
 						},
 						{
 							"type": "file",
+							"id": "5d6c1eca6cea",
 							"name": "POP.00774.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1826,6 +1978,7 @@
 						},
 						{
 							"type": "file",
+							"id": "895e62a2ab24",
 							"name": "POP.00774.EQTL - 01 - POP.00774.EQTL - Inspeção em chaves seccionadoras isoladas a Gás SF6 em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1838,6 +1991,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ebd14a29cf02",
 							"name": "POP.00775.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1850,6 +2004,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0b821161749a",
 							"name": "POP.00775.EQTL - 01 - POP.00775.EQTL - Inspeção em transformadores pad-mounted em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1862,6 +2017,7 @@
 						},
 						{
 							"type": "file",
+							"id": "acded03edf60",
 							"name": "POP.00776.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1874,6 +2030,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c93afb5d5c15",
 							"name": "POP.00776.EQTL - 01 - POP.00776.EQTL - Realizar coleta para análise de óleo isolante de equipamentos em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1886,6 +2043,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c15fc8c37b87",
 							"name": "POP.00777.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1898,6 +2056,7 @@
 						},
 						{
 							"type": "file",
+							"id": "50e8b47d1487",
 							"name": "POP.00777.EQTL - 01 - POP.00777.EQTL - Entrada e Saída de Câmaras Transformadoras, Poços de Inspeção e Câmaras em Sala em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1910,6 +2069,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d2a67dc300e1",
 							"name": "POP.00778.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1922,6 +2082,7 @@
 						},
 						{
 							"type": "file",
+							"id": "26336cdcac1f",
 							"name": "POP.00778.EQTL - 01 - POP.00778.EQTL - Instalação e Remoção de Cabos de Média e Baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1934,6 +2095,7 @@
 						},
 						{
 							"type": "file",
+							"id": "eb1de44b6d5b",
 							"name": "POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET) (27).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1946,6 +2108,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ae9f16754ac0",
 							"name": "POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1958,6 +2121,7 @@
 						},
 						{
 							"type": "file",
+							"id": "af2d657e9733",
 							"name": "POP.00779.EQTL - 01 - POP.00779.EQTL - Abertura e Manutenção Chave Primária Isolada a Óleo em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1970,6 +2134,7 @@
 						},
 						{
 							"type": "file",
+							"id": "48d38a9cf840",
 							"name": "POP.00783.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1982,6 +2147,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e9b61a6eeaf5",
 							"name": "POP.00783.EQTL - 01 - POP.00783.EQTL - Realizar diagnóstico em cabos em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -1994,6 +2160,7 @@
 						},
 						{
 							"type": "file",
+							"id": "60576761000b",
 							"name": "POP.00784.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2006,6 +2173,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a573c11fdc40",
 							"name": "POP.00784.EQTL - 01 - POP.00784.EQTL - 00 - POP.00784.EQTL - Limpeza e Lavagem de Camaras transformadoras e Caixas de Ligação em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2018,6 +2186,7 @@
 						},
 						{
 							"type": "file",
+							"id": "acd32eff362d",
 							"name": "POP.00785.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2030,6 +2199,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0ab3f827d39b",
 							"name": "POP.00785.EQTL - 01 - POP.00785.EQTL - Confecção de Terminações em Cabos de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2042,6 +2212,7 @@
 						},
 						{
 							"type": "file",
+							"id": "670f25223117",
 							"name": "POP.00786.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2054,6 +2225,7 @@
 						},
 						{
 							"type": "file",
+							"id": "bac487fe6432",
 							"name": "POP.00786.EQTL - 01 - POP.00786.EQTL - Confecção de emenda unipolar em cabos de baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2066,6 +2238,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d6751f9ee4cf",
 							"name": "POP.00788.EQTL - 01 - Anexo I - Componentes e sequência de montagem de andaimes isolados.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2078,6 +2251,7 @@
 						},
 						{
 							"type": "file",
+							"id": "8c38343f6003",
 							"name": "POP.00788.EQTL - 01 - POP.00788.EQTL - Montagem e utilização de andaime isolado em rede de distribuição de média tensão (13,8 kV a 34,5 kV).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2090,6 +2264,7 @@
 						},
 						{
 							"type": "file",
+							"id": "fa3ec3882a03",
 							"name": "POP.00791.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2102,6 +2277,7 @@
 						},
 						{
 							"type": "file",
+							"id": "eef39f7b40ef",
 							"name": "POP.00791.EQTL - 01 - POP.00791.EQTL - Conexão e Desconexão de Cabos MT e BT dos Equipamentos (Chave Primária e Network Protector) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2114,6 +2290,7 @@
 						},
 						{
 							"type": "file",
+							"id": "17458b846104",
 							"name": "POP.00792.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2126,6 +2303,7 @@
 						},
 						{
 							"type": "file",
+							"id": "fb8fc445c929",
 							"name": "POP.00792.EQTL - 01 - POP.00792.EQTL - Localização de falhas em cabos de média tensão (Tensão Aplicada CC e Unidade SSG) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2138,6 +2316,7 @@
 						},
 						{
 							"type": "file",
+							"id": "cd35841ca893",
 							"name": "POP.00794.EQTL - 01 - POP.00794.EQTL - Abertura e fechamento de valas em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2150,6 +2329,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e74d95f01d5b",
 							"name": "POP.00806.EQTL - 01 - POP.00806.EQTL - Inspeção em Empreendimentos de multiplas unidades consumidoras (EMUC) em rede de distribuição subterrânea até 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2162,6 +2342,7 @@
 						},
 						{
 							"type": "file",
+							"id": "996f53aaecb6",
 							"name": "POP.00808.EQTL - 03 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2174,6 +2355,7 @@
 						},
 						{
 							"type": "file",
+							"id": "57f45623c026",
 							"name": "POP.00869.EQTL - 01 - POP.00869.EQTL - Técnicas de resgate em trabalhos com andaime isolado em Rede de Distribuição de Média Tensão (13,8 kV a 34,5 kV).pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2186,6 +2368,7 @@
 						},
 						{
 							"type": "file",
+							"id": "72ca9a240ebd",
 							"name": "POP.00870.EQTL - 01 - POP.00870.EQTL - Substituição de para-raios em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2198,6 +2381,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c6b566196ada",
 							"name": "POP.00871.EQTL - 01 - POP.00871.EQTL - Emenda e reparo de condutor primário em rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2210,6 +2394,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d4660ac798dd",
 							"name": "POP.00872.EQTL - 01 - POP.00872.EQTL - Substituição de chave faca unipolar em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2222,6 +2407,7 @@
 						},
 						{
 							"type": "file",
+							"id": "97bbbcc545b7",
 							"name": "POP.00873.EQTL - 01 - POP.00873.EQTL - Substituição de chave fusível em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2234,6 +2420,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1216650f999a",
 							"name": "POP.00874.EQTL - 01 - POP.00874.EQTL - Substituição de jumpers e conexões em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2246,6 +2433,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d3300dfa04bc",
 							"name": "POP.00875.EQTL - 01 - POP.00875.EQTL - Substituição de isolador de pino e de ancoragem em rede energizada até 34,5 kV com uso de andaime isolado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2258,6 +2446,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d0267a73226e",
 							"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2270,6 +2459,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1f4f78f8dca8",
 							"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2282,6 +2472,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a34a93cdca6f",
 							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2294,6 +2485,7 @@
 						},
 						{
 							"type": "file",
+							"id": "7cd7d0e71f9f",
 							"name": "POP.00918.EQTL - 07 - Anexo I - Fluxograma.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2306,6 +2498,7 @@
 						},
 						{
 							"type": "file",
+							"id": "23c5004669d1",
 							"name": "POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2318,6 +2511,7 @@
 						},
 						{
 							"type": "file",
+							"id": "41383b7e31f5",
 							"name": "POP.01139.EQTL - 02 - Anexo I - Instrução de Serviço para Comissionamento de Religadores.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2330,6 +2524,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2dbed8f27f29",
 							"name": "POP.01139.EQTL - 02 - POP.01139.EQTL - Serviços de manutenção em redes aéreas de distribuição de média e baixa tensão energizadas.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2342,6 +2537,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e7c96ab3f06d",
 							"name": "POP.01213.EQTL - 00 - POP.01213.EQTL - Serviços de manutenção em redes de distribuição de desenergizadas – BT 220380 V.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2364,6 +2560,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "ff2057b9a434",
 							"name": "POP.00168.EQTL  - Comunicao com o COI.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2376,6 +2573,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e03b54cba27f",
 							"name": "POP.00179.EQTL - Realizar Desligamento Programado em Redes de Distribuio.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2388,6 +2586,7 @@
 						},
 						{
 							"type": "file",
+							"id": "74caebd4fda6",
 							"name": "POP.00202.EQTL - Realizar Desligamento Emergencial em RD.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2400,6 +2599,7 @@
 						},
 						{
 							"type": "file",
+							"id": "4d65d15cbef3",
 							"name": "POP.00453.EQTL - Realizar poda em manuteno de rede desenergizada at 34,5 kV.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2412,6 +2612,7 @@
 						},
 						{
 							"type": "file",
+							"id": "7bb66b3b6f4f",
 							"name": "POP.00454.EQTL - Utilizao de cesto ereo.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2424,6 +2625,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0055186fa5ea",
 							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroadora e demais Ferramentas .pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2436,6 +2638,7 @@
 						},
 						{
 							"type": "file",
+							"id": "125fb987b699",
 							"name": "POP.00466.EQTL - Utilizao de Motopoda e Motoserra.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2448,6 +2651,7 @@
 						},
 						{
 							"type": "file",
+							"id": "9412054ac6d9",
 							"name": "POP.00468.EQTL - Realizar Podas prximo  rede energizada.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2460,6 +2664,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ec454b8255ea",
 							"name": "POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de rvores em rede energizada em regime de Linha V.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2472,6 +2677,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2d4e999d4944",
 							"name": "POP.00516.EQTL -  Supresso de vegetao, corte e poda de rvores.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2484,6 +2690,7 @@
 						},
 						{
 							"type": "file",
+							"id": "65f83c944459",
 							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar rvores isoladas em redes de distribuio e transmisso (.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2496,6 +2703,7 @@
 						},
 						{
 							"type": "file",
+							"id": "547a5d55757e",
 							"name": "POP.00534.EQTL - 03 - POP.00534.EQTL - Realizar poda de rvores em LD - mtodo a distncia 1.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2508,6 +2716,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c184cfb3e527",
 							"name": "POP.00900.EQTL - 01 - Anexo I - ngulo de fotografias dos servios.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2520,6 +2729,7 @@
 						},
 						{
 							"type": "file",
+							"id": "249daa438111",
 							"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de rvores a distncia e em circuito desenergizado.pdf",
 							"slug": [
 								"GOMAN - CGB",
@@ -2543,6 +2753,7 @@
 			"children": [
 				{
 					"type": "file",
+					"id": "82e26f6fcaa1",
 					"name": "Plano de Curso 4 - Plantão _Rev.4 (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2554,6 +2765,7 @@
 				},
 				{
 					"type": "file",
+					"id": "915735ebdabe",
 					"name": "POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1) (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2565,6 +2777,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4c46ca2d4ee1",
 					"name": "POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2576,6 +2789,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ff0f9e373e0f",
 					"name": "POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2587,6 +2801,7 @@
 				},
 				{
 					"type": "file",
+					"id": "db34086057d9",
 					"name": "POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2598,6 +2813,7 @@
 				},
 				{
 					"type": "file",
+					"id": "7923d1220e3b",
 					"name": "POP.00168.EQTL - 01 - POP.00168.EQTL  - Comunicação com o COI.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2609,6 +2825,7 @@
 				},
 				{
 					"type": "file",
+					"id": "57ae1a0aaead",
 					"name": "POP.00202.EQTL - 02 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (6).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2620,6 +2837,7 @@
 				},
 				{
 					"type": "file",
+					"id": "8036064a8ee1",
 					"name": "POP.00226.EQTL - 01 - POP.00226.EQTL - Corte no disjuntor tipo Gavião - Revalidado.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2631,6 +2849,7 @@
 				},
 				{
 					"type": "file",
+					"id": "21812b904818",
 					"name": "POP.00228.EQTL - 01 - POP.00228.EQTL - Corte tipo Simbolicoo.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2642,6 +2861,7 @@
 				},
 				{
 					"type": "file",
+					"id": "496f502a2eff",
 					"name": "POP.00233.EQTL - 01 - POP.00233.EQTL - Suspender Fornecimento Poder Público_Clientes Especiais.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2653,6 +2873,7 @@
 				},
 				{
 					"type": "file",
+					"id": "6e3f9c3f4a40",
 					"name": "POP.00245.EQTL - 01 - POP.00245.EQTL - Execução do Corte em Unidade Consumidora do Grupo Bb.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2664,6 +2885,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e4731004bf6a",
 					"name": "POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2675,6 +2897,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b5dbf0987a1a",
 					"name": "POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo Bb.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2686,6 +2909,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e97535eb969a",
 					"name": "POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (2).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2697,6 +2921,7 @@
 				},
 				{
 					"type": "file",
+					"id": "59aa4bc8a212",
 					"name": "POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Proo.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2708,6 +2933,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f81c84ee22b0",
 					"name": "POP.00302.EQTL - 01 - POP.00302.EQTL - Financiamento de Padrãoo.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2719,6 +2945,7 @@
 				},
 				{
 					"type": "file",
+					"id": "2f1ca50a6660",
 					"name": "POP.00324.EQTL - Religação no Medidor ou Disjuntor.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2730,6 +2957,7 @@
 				},
 				{
 					"type": "file",
+					"id": "25740f5a9c40",
 					"name": "POP.00325.EQTL - Religação no Poste.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2741,6 +2969,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ae0a6c708d25",
 					"name": "POP.00331.EQTL - 01 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2752,6 +2981,7 @@
 				},
 				{
 					"type": "file",
+					"id": "df69086c1d5e",
 					"name": "POP.00332.EQTL - Religação com Reposição de Ramal.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2763,6 +2993,7 @@
 				},
 				{
 					"type": "file",
+					"id": "8fddf6763302",
 					"name": "POP.00334.EQTL - 01 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2774,6 +3005,7 @@
 				},
 				{
 					"type": "file",
+					"id": "5cbd5bb3b615",
 					"name": "POP.00335.EQTL - 01 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B1.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2785,6 +3017,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e2296d00be0c",
 					"name": "POP.00440.EQTL - 01 - POP.00440.EQTL - Troca de porta fusível ou elo usando a ferramenta BY PASS em manutenção de rede desenergizada até 34,5 kV.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2796,6 +3029,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4de983fd59fd",
 					"name": "POP.00454.EQTL - 01 - POP.00454.EQTL - Utilização de cesto áereo.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2807,6 +3041,7 @@
 				},
 				{
 					"type": "file",
+					"id": "ac6ef0f1f8d4",
 					"name": "POP.00465.EQTL - Utilização de esporas.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2818,6 +3053,7 @@
 				},
 				{
 					"type": "file",
+					"id": "33a8b5dc29eb",
 					"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2829,6 +3065,7 @@
 				},
 				{
 					"type": "file",
+					"id": "c2eff66af6d5",
 					"name": "POP.00473.EQTL - 01 - POP.00473.EQTL - Substituição de isolador roldana em tangente em manutenção de rede desenergizada até 34,5 kV.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2840,6 +3077,7 @@
 				},
 				{
 					"type": "file",
+					"id": "e6c9fc032655",
 					"name": "POP.00480.EQTL - 01 - POP.00480.EQTL - Substituição de amarração de condutor em circuito secundário em manutenção de rede desenergizada até 34,5 kV..docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2851,6 +3089,7 @@
 				},
 				{
 					"type": "file",
+					"id": "04ad57ffbcd3",
 					"name": "POP.00481.EQTL - 01 - POP.00481.EQTL Substituição de armação secundária em tangente em manutenção de rede desenergizada até 34,5 kV.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2862,6 +3101,7 @@
 				},
 				{
 					"type": "file",
+					"id": "10891fb5acec",
 					"name": "POP.00484.EQTL - 01 - POP.00484.EQTL - Substituição de armação secundária em encabeçamento (fim de linha) em manutenção de RD até 34,5 kV.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2873,6 +3113,7 @@
 				},
 				{
 					"type": "file",
+					"id": "9537a0bff988",
 					"name": "POP.00489.EQTL - 01 - POP.00489.EQTL - Substituição de isolador roldana em encabeçamento de redes de BT cabo nu em manutenção de RD até 34,5 kV.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2884,6 +3125,7 @@
 				},
 				{
 					"type": "file",
+					"id": "bd0ea847248a",
 					"name": "POP.00491.EQTL - 01 - ANEXO I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2895,6 +3137,7 @@
 				},
 				{
 					"type": "file",
+					"id": "39e2b32e6856",
 					"name": "POP.00491.EQTL - 01 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2906,6 +3149,7 @@
 				},
 				{
 					"type": "file",
+					"id": "9f57c4d284bd",
 					"name": "POP.00496.EQTL - 01 - POP.00496.EQTL - Emenda reparo de condutor secundário ( Rede de Baixa Tensão em circuito desenergizado) (1).docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2917,6 +3161,7 @@
 				},
 				{
 					"type": "file",
+					"id": "08313ecfb0be",
 					"name": "POP.00516.EQTL - 01 - POP.00516.EQTL - Supressão de vegetação, corte e poda de árvores.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2928,6 +3173,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f28787a2d7dc",
 					"name": "POP.00559.EQTL - 00 - POP.159 - Abrir Fechar Religador no SDMT.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2939,6 +3185,7 @@
 				},
 				{
 					"type": "file",
+					"id": "d1a576fd30bd",
 					"name": "POP.00560.EQTL - 00 - POP.160- Bloquear religamento em religador no SDMT1.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2950,6 +3197,7 @@
 				},
 				{
 					"type": "file",
+					"id": "37b10ea8d853",
 					"name": "POP.00561.EQTL - 00 - POP.161- Realizar By-pass em religador  no SDMT1.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2961,6 +3209,7 @@
 				},
 				{
 					"type": "file",
+					"id": "c7f5fe896b1e",
 					"name": "POP.00563.EQTL - 00 - POP.163- Realizar bypass em regulador de tensão no SDMT1.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2972,6 +3221,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b81a55c3a5c1",
 					"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -2983,6 +3233,7 @@
 				},
 				{
 					"type": "file",
+					"id": "994591715b08",
 					"name": "POP.00808.EQTL - 00 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.docx",
 					"slug": [
 						"GSTC - CGB",
@@ -2994,6 +3245,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4738bc6e3311",
 					"name": "POP.00832.EQTL - 01 - POP.00832.EQTL - Utilização de escada giratória central (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3005,6 +3257,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f7f8e11044be",
 					"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3016,6 +3269,7 @@
 				},
 				{
 					"type": "file",
+					"id": "102227c8ef7e",
 					"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3027,6 +3281,7 @@
 				},
 				{
 					"type": "file",
+					"id": "69cf69a5203b",
 					"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3038,6 +3293,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f31bbbf2d071",
 					"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de árvores a distância e em circuito desenergizado (1).pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3049,6 +3305,7 @@
 				},
 				{
 					"type": "file",
+					"id": "4e7d74a36fd7",
 					"name": "POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3060,6 +3317,7 @@
 				},
 				{
 					"type": "file",
+					"id": "9bab5b67346d",
 					"name": "POP.00962.EQTL - 03 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3071,6 +3329,7 @@
 				},
 				{
 					"type": "file",
+					"id": "c2c5083db4ec",
 					"name": "POP.01077.EQTL - 00 - Anexo I - Fluxo SI.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3082,6 +3341,7 @@
 				},
 				{
 					"type": "file",
+					"id": "324cfe1f2992",
 					"name": "POP.01077.EQTL - 00 - POP.01077.EQTL - Realizar Solicitação de Intervenção Programada com Desligamento.pdf",
 					"slug": [
 						"GSTC - CGB",
@@ -3093,6 +3353,7 @@
 				},
 				{
 					"type": "file",
+					"id": "f3aaeea925a5",
 					"name": "POP011_2.PDF",
 					"slug": [
 						"GSTC - CGB",
@@ -3112,6 +3373,7 @@
 					"children": [
 						{
 							"type": "file",
+							"id": "f470264fae9c",
 							"name": "POP.00287.EQTL - 04 - ANEXO I _ Aviso Medição Permanente - Pará.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3124,6 +3386,7 @@
 						},
 						{
 							"type": "file",
+							"id": "80c01c80e86b",
 							"name": "POP.00287.EQTL - 04 - ANEXO II- Aviso Medição Permanente - Alagoas.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3136,6 +3399,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c290e25924fb",
 							"name": "POP.00287.EQTL - 04 - ANEXO III - Aviso de Medição Permanente - Maranhão.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3148,6 +3412,7 @@
 						},
 						{
 							"type": "file",
+							"id": "caab9980edb0",
 							"name": "POP.00287.EQTL - 04 - ANEXO IV - Aviso Medição Permanente - Piaui (1)_Revisado.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3160,6 +3425,7 @@
 						},
 						{
 							"type": "file",
+							"id": "52b7a407382e",
 							"name": "POP.00287.EQTL - 04 - ANEXO IX - Notificação de Impedimento de Acesso - Maranhão.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3172,6 +3438,7 @@
 						},
 						{
 							"type": "file",
+							"id": "44c39fb3ee5d",
 							"name": "POP.00287.EQTL - 04 - ANEXO V - Aviso Medição Permanente RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3184,6 +3451,7 @@
 						},
 						{
 							"type": "file",
+							"id": "0de9faf9a26c",
 							"name": "POP.00287.EQTL - 04 - ANEXO VI  CSM Medidor de Qualidade.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3196,6 +3464,7 @@
 						},
 						{
 							"type": "file",
+							"id": "138f5aca09a9",
 							"name": "POP.00287.EQTL - 04 - ANEXO VII - Notificação de Impedimento de Acesso - Pará.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3208,6 +3477,7 @@
 						},
 						{
 							"type": "file",
+							"id": "88916335ccd3",
 							"name": "POP.00287.EQTL - 04 - ANEXO VIII - Notificação de Impedimento de Acesso - Alagoas.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3220,6 +3490,7 @@
 						},
 						{
 							"type": "file",
+							"id": "641e664a1660",
 							"name": "POP.00287.EQTL - 04 - ANEXO X - Notificação de Impedimento de Acesso - Piaui.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3232,6 +3503,7 @@
 						},
 						{
 							"type": "file",
+							"id": "6c5b6b7a6a5d",
 							"name": "POP.00287.EQTL - 04 - ANEXO XI - Notificação de Impedimento de Acesso - RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3244,6 +3516,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e7c265da93fc",
 							"name": "POP.00287.EQTL - 04 - ANEXO XII - Aviso de Medição Permanente - Amapá.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3256,6 +3529,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c24869f69671",
 							"name": "POP.00287.EQTL - 04 - ANEXO XIII - Notificação de Impedimento de Acesso - Amapá.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3268,6 +3542,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f78b8f464fc6",
 							"name": "POP.00287.EQTL - 04 - ANEXO XIV - Aviso de Medição Permanente _ Goiás.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3280,6 +3555,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f72e3b87e876",
 							"name": "POP.00287.EQTL - 04 - ANEXO XV - Notificação de Impedimento de Acesso - Goiás.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3292,6 +3568,7 @@
 						},
 						{
 							"type": "file",
+							"id": "527ef9e8e3a4",
 							"name": "POP.00287.EQTL - 04 - ANEXO XVI - Pará -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3304,6 +3581,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3f46b69d9bc0",
 							"name": "POP.00287.EQTL - 04 - ANEXO XVII - Alagoas -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3316,6 +3594,7 @@
 						},
 						{
 							"type": "file",
+							"id": "55a49515e72d",
 							"name": "POP.00287.EQTL - 04 - ANEXO XVIII - Maranhão -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3328,6 +3607,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3a942c866bb4",
 							"name": "POP.00287.EQTL - 04 - ANEXO XX - RS -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3340,6 +3620,7 @@
 						},
 						{
 							"type": "file",
+							"id": "9c15812bc32b",
 							"name": "POP.00287.EQTL - 04 - ANEXO XXI - Amapá -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3352,6 +3633,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a093dc3540fe",
 							"name": "POP.00287.EQTL - 04 - ANEXO XXII - Goias -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3364,6 +3646,7 @@
 						},
 						{
 							"type": "file",
+							"id": "bad2877473be",
 							"name": "POP.00287.EQTL - 04 - POP.00287.EQTL. Troca e Instalação de Medição _ Modalidade Amostral e Permanente.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3376,6 +3659,7 @@
 						},
 						{
 							"type": "file",
+							"id": "820bad464d36",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo I _ Formulario Rejeicao MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3388,6 +3672,7 @@
 						},
 						{
 							"type": "file",
+							"id": "6cd85df09648",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo II _ Formulario Rejeicao PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3400,6 +3685,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1579c100c988",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo III _ Formulario Rejeicao PI.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3412,6 +3698,7 @@
 						},
 						{
 							"type": "file",
+							"id": "dd44921f085a",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo IV _ Formulario Rejeicao AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3424,6 +3711,7 @@
 						},
 						{
 							"type": "file",
+							"id": "442f3c813932",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo V _ Formulario Rejeicao RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3436,6 +3724,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a9be785355e8",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo VI _ Formulario Rejeicao AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3448,6 +3737,7 @@
 						},
 						{
 							"type": "file",
+							"id": "ad8a33579269",
 							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo B.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3460,6 +3750,7 @@
 						},
 						{
 							"type": "file",
+							"id": "08ec9b9e4d38",
 							"name": "POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (1).pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3472,6 +3763,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d349f1f3fd5c",
 							"name": "POP.00298.EQTL - 02 - Anexo I - Formulario Rejeicao MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3484,6 +3776,7 @@
 						},
 						{
 							"type": "file",
+							"id": "fd5909659732",
 							"name": "POP.00298.EQTL - 02 - Anexo II - Formulario Rejeicao PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3496,6 +3789,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e94067af3372",
 							"name": "POP.00298.EQTL - 02 - Anexo III - Formulario Rejeicao PI.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3508,6 +3802,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e04ac456f3b3",
 							"name": "POP.00298.EQTL - 02 - Anexo IV - Formulario Rejeicao AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3520,6 +3815,7 @@
 						},
 						{
 							"type": "file",
+							"id": "bc3a87a02ea2",
 							"name": "POP.00298.EQTL - 02 - Anexo V - Formulario Rejeicao RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3532,6 +3828,7 @@
 						},
 						{
 							"type": "file",
+							"id": "a20edd654af2",
 							"name": "POP.00298.EQTL - 02 - Anexo VI - Formulario Rejeicao AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3544,6 +3841,7 @@
 						},
 						{
 							"type": "file",
+							"id": "aa6a84a1fdca",
 							"name": "POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Pro.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3556,6 +3854,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e9fe3749de8e",
 							"name": "POP.00302.EQTL - 02 - Anexo I - Financiamento de Padrão - Serviços de Rede - MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3568,6 +3867,7 @@
 						},
 						{
 							"type": "file",
+							"id": "708dd810e530",
 							"name": "POP.00302.EQTL - 02 - Anexo II - Financiamento de Padrão - Serviços de Rede - PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3580,6 +3880,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2ebf6ad7ef81",
 							"name": "POP.00302.EQTL - 02 - Anexo III - Financiamento de Padrão - Serviços de Rede - PI.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3592,6 +3893,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e6b8c47192e4",
 							"name": "POP.00302.EQTL - 02 - Anexo IV - Financiamento de Padrão - Serviços de Rede - AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3604,6 +3906,7 @@
 						},
 						{
 							"type": "file",
+							"id": "b2d7106a9f95",
 							"name": "POP.00302.EQTL - 02 - Anexo V - Financiamento de Padrão - Serviços de Rede - RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3616,6 +3919,7 @@
 						},
 						{
 							"type": "file",
+							"id": "805ad11fd654",
 							"name": "POP.00302.EQTL - 02 - Anexo VI - Financiamento de Padrão - Serviços de Rede - AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3628,6 +3932,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2a7cc269b4d3",
 							"name": "POP.00302.EQTL - 02 - POP.00302.EQTL - Financiamento de Padrão.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3640,6 +3945,7 @@
 						},
 						{
 							"type": "file",
+							"id": "02e46c99e58b",
 							"name": "POP.00331.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3652,6 +3958,7 @@
 						},
 						{
 							"type": "file",
+							"id": "c9ebe7706080",
 							"name": "POP.00331.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3664,6 +3971,7 @@
 						},
 						{
 							"type": "file",
+							"id": "2ba00a507aeb",
 							"name": "POP.00331.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3676,6 +3984,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1088b92ce7a0",
 							"name": "POP.00331.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3688,6 +3997,7 @@
 						},
 						{
 							"type": "file",
+							"id": "82b6d215a36e",
 							"name": "POP.00331.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3700,6 +4010,7 @@
 						},
 						{
 							"type": "file",
+							"id": "56d6c8f92d39",
 							"name": "POP.00331.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3712,6 +4023,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1ad09ed5a2f8",
 							"name": "POP.00331.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3724,6 +4036,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f81a97c1d15a",
 							"name": "POP.00331.EQTL - 02 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3736,6 +4049,7 @@
 						},
 						{
 							"type": "file",
+							"id": "03fc0cb17ade",
 							"name": "POP.00334.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3748,6 +4062,7 @@
 						},
 						{
 							"type": "file",
+							"id": "4cd6d8d9da10",
 							"name": "POP.00334.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3760,6 +4075,7 @@
 						},
 						{
 							"type": "file",
+							"id": "3f7458de42cb",
 							"name": "POP.00334.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3772,6 +4088,7 @@
 						},
 						{
 							"type": "file",
+							"id": "498b73ec8c93",
 							"name": "POP.00334.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3784,6 +4101,7 @@
 						},
 						{
 							"type": "file",
+							"id": "1f37615649ac",
 							"name": "POP.00334.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3796,6 +4114,7 @@
 						},
 						{
 							"type": "file",
+							"id": "d9d01d4c9ff6",
 							"name": "POP.00334.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3808,6 +4127,7 @@
 						},
 						{
 							"type": "file",
+							"id": "28200846ad23",
 							"name": "POP.00334.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3820,6 +4140,7 @@
 						},
 						{
 							"type": "file",
+							"id": "687f9616ef63",
 							"name": "POP.00334.EQTL - 02 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3832,6 +4153,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f654bf827a56",
 							"name": "POP.00335.EQTL - 02 - Anexo I Formulário de Rejeição.MA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3844,6 +4166,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f33801696d1c",
 							"name": "POP.00335.EQTL - 02 - Anexo II Formulário Rejeição PA.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3856,6 +4179,7 @@
 						},
 						{
 							"type": "file",
+							"id": "e1db2acc5aff",
 							"name": "POP.00335.EQTL - 02 - Anexo III Formulário Rejeição_.PI 1.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3868,6 +4192,7 @@
 						},
 						{
 							"type": "file",
+							"id": "f6ebebc365bc",
 							"name": "POP.00335.EQTL - 02 - Anexo IV – Formulário Rejeição.AL.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3880,6 +4205,7 @@
 						},
 						{
 							"type": "file",
+							"id": "bbdbc6f583b4",
 							"name": "POP.00335.EQTL - 02 - Anexo V Formulário de Rejeição.AP.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3892,6 +4218,7 @@
 						},
 						{
 							"type": "file",
+							"id": "edd92a7ca1df",
 							"name": "POP.00335.EQTL - 02 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3904,6 +4231,7 @@
 						},
 						{
 							"type": "file",
+							"id": "50cfd0b71289",
 							"name": "POP.00962.EQTL - 04 - Anexo I -   Gerador de ajuste de dados de medição.xlsm",
 							"slug": [
 								"GSTC - CGB",
@@ -3916,6 +4244,7 @@
 						},
 						{
 							"type": "file",
+							"id": "649f6e297034",
 							"name": "POP.00962.EQTL - 04 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3928,6 +4257,7 @@
 						},
 						{
 							"type": "file",
+							"id": "4814fd7f277a",
 							"name": "POP.01203.EQTL - 00 - Anexo I - Formulário Rejeição.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3940,6 +4270,7 @@
 						},
 						{
 							"type": "file",
+							"id": "b80aba77bb81",
 							"name": "POP.01203.EQTL - 00 - Anexo II - Formulário de Religação.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3952,6 +4283,7 @@
 						},
 						{
 							"type": "file",
+							"id": "61ccae74d133",
 							"name": "POP.01203.EQTL - 00 - Anexo III - Termo de Ocorrência de Auto-Religação.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3964,6 +4296,7 @@
 						},
 						{
 							"type": "file",
+							"id": "5bec8aa7b01c",
 							"name": "POP.01203.EQTL - 00 - POP.01203.EQTL - Religação de Unidade Consumidora.pdf",
 							"slug": [
 								"GSTC - CGB",
@@ -3987,6 +4320,7 @@
 			"children": [
 				{
 					"type": "file",
+					"id": "73046e17df25",
 					"name": "POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -3998,6 +4332,7 @@
 				},
 				{
 					"type": "file",
+					"id": "93c1b8cd7ce6",
 					"name": "POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -4009,6 +4344,7 @@
 				},
 				{
 					"type": "file",
+					"id": "b4fa607d9102",
 					"name": "POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -4020,6 +4356,7 @@
 				},
 				{
 					"type": "file",
+					"id": "50eaa8cae639",
 					"name": "POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -4031,6 +4368,7 @@
 				},
 				{
 					"type": "file",
+					"id": "7d68d7ea728a",
 					"name": "POP.00168.EQTL - Comunicação com o COI (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -4042,6 +4380,7 @@
 				},
 				{
 					"type": "file",
+					"id": "429fd43e0a9f",
 					"name": "POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf",
 					"slug": [
 						"TRILHA DE SEGURANÇA",
@@ -4055,6 +4394,7 @@
 		},
 		{
 			"type": "file",
+			"id": "c2c56036bf53",
 			"name": "TRILHAS MÓDULOS E POPS - kit do multiplicador.xlsx",
 			"slug": [
 				"TRILHAS MÓDULOS E POPS - kit do multiplicador.xlsx"

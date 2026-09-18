@@ -57,9 +57,9 @@
 	{:else}
 		<p class="results-count">{results.length} resultado(s)</p>
 		<ul class="file-list">
-			{#each results as { file, parentSlug } (file.slug.join('/'))}
+			{#each results as { file, parentSlug } (file.id)}
 				<li>
-					<a class="file-row" href={fileHref(file.slug)} title={file.name}>
+					<a class="file-row" href={fileHref(file)} title={file.name}>
 						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
 						<span class="file-text">
 							<span class="file-name">{resultLabels.get(file)}</span>
@@ -92,9 +92,9 @@
 	{#if rootFiles.length > 0}
 		<h2 class="section-title">Outros arquivos</h2>
 		<ul class="file-list">
-			{#each rootFiles as f (f.slug.join('/'))}
+			{#each rootFiles as f (f.id)}
 				<li>
-					<a class="file-row" href={fileHref(f.slug)} title={f.name}>
+					<a class="file-row" href={fileHref(f)} title={f.name}>
 						<span class="ext-badge" style:background={extColor(f.ext)}>{extLabel(f.ext)}</span>
 						<span class="file-name">{rootFileLabels.get(f)}</span>
 						<span class="file-size">{formatSize(f.sizeBytes)}</span>

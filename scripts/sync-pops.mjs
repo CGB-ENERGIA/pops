@@ -1,12 +1,18 @@
 // Copia os procedimentos das pastas locais para dentro do projeto (static/pops)
 // e gera um manifesto (src/lib/data/manifest.json) com a árvore de pastas/arquivos.
 //
+// Cada arquivo é salvo em static/pops com um nome curto baseado em hash
+// (ex.: static/pops/a1b2c3d4e5f6.pdf) em vez do nome original — nomes de
+// arquivo muito longos ou com caracteres como vírgula vinham quebrando o
+// deploy na Vercel. O nome de exibição continua vindo do manifesto.
+//
 // Rode `npm run sync` sempre que os arquivos originais forem atualizados, depois
 // confira o resultado com `npm run dev` e faça commit + push.
 
 import { existsSync, mkdirSync, rmSync, copyFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
-import { join, resolve, relative, extname } from 'node:path';
+import { join, resolve, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const PROJECT_ROOT = resolve(__dirname, '..');
@@ -43,12 +49,25 @@ mkdirSync(DEST_DIR, { recursive: true });
 
 let fileCount = 0;
 let skippedCount = 0;
+const usedIds = new Set();
 
 function shouldSkip(name) {
 	return name.startsWith('~$') || name.startsWith('.');
 }
 
-function walk(sourceDir, destDir, slug) {
+function idFor(slug) {
+	const base = createHash('sha1').update(slug.join('/')).digest('hex').slice(0, 12);
+	let id = base;
+	let suffix = 1;
+	// no improvável caso de colisão, acrescenta um sufixo
+	while (usedIds.has(id)) {
+		id = `${base}${suffix++}`;
+	}
+	usedIds.add(id);
+	return id;
+}
+
+function walk(sourceDir, slug) {
 	const entries = readdirSync(sourceDir, { withFileTypes: true }).sort((a, b) =>
 		a.name.localeCompare(b.name, 'pt-BR')
 	);
@@ -67,9 +86,7 @@ function walk(sourceDir, destDir, slug) {
 			if (IGNORE_DIRS.has(entry.name)) continue;
 
 			const childSlug = [...slug, entry.name];
-			const childDest = join(destDir, entry.name);
-			mkdirSync(childDest, { recursive: true });
-			const childNode = walk(sourcePath, childDest, childSlug);
+			const childNode = walk(sourcePath, childSlug);
 			// só inclui a pasta se tiver algo dentro (evita pastas vazias na navegação)
 			if (childNode.children.length > 0) {
 				children.push(childNode);
@@ -83,15 +100,20 @@ function walk(sourceDir, destDir, slug) {
 			continue;
 		}
 
-		copyFileSync(sourcePath, join(destDir, entry.name));
+		const fileSlug = [...slug, entry.name];
+		const id = idFor(fileSlug);
+		const extNoDot = ext.replace('.', '');
+
+		copyFileSync(sourcePath, join(DEST_DIR, `${id}.${extNoDot}`));
 		const stats = statSync(sourcePath);
 		fileCount++;
 
 		children.push({
 			type: 'file',
+			id,
 			name: entry.name,
-			slug: [...slug, entry.name],
-			ext: ext.replace('.', ''),
+			slug: fileSlug,
+			ext: extNoDot,
 			sizeBytes: stats.size,
 			modified: stats.mtime.toISOString()
 		});
@@ -105,7 +127,7 @@ function walk(sourceDir, destDir, slug) {
 	};
 }
 
-const tree = walk(SOURCE_DIR, DEST_DIR, []);
+const tree = walk(SOURCE_DIR, []);
 
 mkdirSync(resolve(PROJECT_ROOT, 'src', 'lib', 'data'), { recursive: true });
 writeFileSync(MANIFEST_PATH, JSON.stringify(tree, null, '\t') + '\n', 'utf-8');

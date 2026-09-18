@@ -3,32 +3,24 @@
 	import {
 		folderHref,
 		fileHref,
-		fileUrl,
 		formatSize,
 		countFiles,
 		extLabel,
 		extColor,
 		categoryColor,
 		initials,
-		labelFiles,
-		type FolderNode,
-		type FileNode
+		labelFiles
 	} from '$lib/pops';
-	import OfficePreview from '$lib/OfficePreview.svelte';
-	import PdfViewer from '$lib/PdfViewer.svelte';
 
 	let { data }: { data: PageData } = $props();
 
-	let node = $derived(data.node);
+	let folder = $derived(data.folder);
 	let slug = $derived(data.slug as string[]);
 
 	let query = $state('');
 
-	let folder = $derived(node.type === 'folder' ? (node as FolderNode) : null);
-	let file = $derived(node.type === 'file' ? (node as FileNode) : null);
-
-	let subfolders = $derived(folder ? folder.children.filter((c) => c.type === 'folder') : []);
-	let files = $derived(folder ? folder.children.filter((c) => c.type === 'file') : []);
+	let subfolders = $derived(folder.children.filter((c) => c.type === 'folder'));
+	let files = $derived(folder.children.filter((c) => c.type === 'file'));
 
 	let filteredSubfolders = $derived(
 		query.trim()
@@ -46,16 +38,10 @@
 	);
 
 	let fileLabels = $derived(labelFiles(filteredFiles));
-
-	let fileHrefUrl = $derived(file ? fileUrl(file.slug) : '');
-	let isPdf = $derived(file?.ext === 'pdf');
-	let isOffice = $derived(
-		file ? ['xlsx', 'xls', 'xlsm', 'xlsb', 'docx', 'doc'].includes(file.ext) : false
-	);
 </script>
 
 <svelte:head>
-	<title>{node.name} · Procedimentos CGB</title>
+	<title>{folder.name} · Procedimentos CGB</title>
 </svelte:head>
 
 <nav class="breadcrumb" aria-label="Caminho">
@@ -70,78 +56,50 @@
 	{/each}
 </nav>
 
-{#if folder}
-	<h1 class="title">{folder.name}</h1>
+<h1 class="title">{folder.name}</h1>
 
-	<div class="search">
-		<span class="search-icon" aria-hidden="true">⌕</span>
-		<input type="search" placeholder="Buscar nesta pasta…" bind:value={query} />
-	</div>
+<div class="search">
+	<span class="search-icon" aria-hidden="true">⌕</span>
+	<input type="search" placeholder="Buscar nesta pasta…" bind:value={query} />
+</div>
 
-	{#if filteredSubfolders.length === 0 && filteredFiles.length === 0}
-		<p class="empty">Nenhum item encontrado.</p>
-	{:else}
-		{#if filteredSubfolders.length > 0}
-			<ul class="category-grid">
-				{#each filteredSubfolders as sub (sub.slug.join('/'))}
-					<li>
-						<a
-							class="category-card"
-							href={folderHref(sub.slug)}
-							style:--accent={categoryColor(sub.name)}
-						>
-							<span class="avatar">{initials(sub.name)}</span>
-							<span class="category-text">
-								<span class="category-name">{sub.name}</span>
-								<span class="category-count">{countFiles(sub)} procedimento(s)</span>
-							</span>
-							<span class="chevron" aria-hidden="true">›</span>
-						</a>
-					</li>
-				{/each}
-			</ul>
-		{/if}
-
-		{#if filteredFiles.length > 0}
-			<ul class="file-list">
-				{#each filteredFiles as f (f.slug.join('/'))}
-					<li>
-						<a class="file-row" href={fileHref(f.slug)} title={f.name}>
-							<span class="ext-badge" style:background={extColor(f.ext)}>{extLabel(f.ext)}</span>
-							<span class="file-name">{fileLabels.get(f)}</span>
-							<span class="file-size">{formatSize(f.sizeBytes)}</span>
-							<span class="chevron" aria-hidden="true">›</span>
-						</a>
-					</li>
-				{/each}
-			</ul>
-		{/if}
+{#if filteredSubfolders.length === 0 && filteredFiles.length === 0}
+	<p class="empty">Nenhum item encontrado.</p>
+{:else}
+	{#if filteredSubfolders.length > 0}
+		<ul class="category-grid">
+			{#each filteredSubfolders as sub (sub.slug.join('/'))}
+				<li>
+					<a
+						class="category-card"
+						href={folderHref(sub.slug)}
+						style:--accent={categoryColor(sub.name)}
+					>
+						<span class="avatar">{initials(sub.name)}</span>
+						<span class="category-text">
+							<span class="category-name">{sub.name}</span>
+							<span class="category-count">{countFiles(sub)} procedimento(s)</span>
+						</span>
+						<span class="chevron" aria-hidden="true">›</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
 	{/if}
-{:else if file}
-	<div class="file-header">
-		<span class="ext-badge large" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
-		<div class="file-header-text">
-			<h1 class="title">{file.name}</h1>
-			<span class="file-meta">{formatSize(file.sizeBytes)}</span>
-		</div>
-	</div>
 
-	<div class="toolbar">
-		<a class="download" href={fileHrefUrl} download={file.name}>⬇ Baixar</a>
-		<a class="open-tab" href={fileHrefUrl} target="_blank" rel="noopener noreferrer">Abrir em nova aba ↗</a>
-	</div>
-
-	{#if isPdf}
-		<PdfViewer url={fileHrefUrl} />
-	{:else if isOffice}
-		<div class="viewer office">
-			<OfficePreview url={fileHrefUrl} ext={file.ext} />
-		</div>
-	{:else}
-		<div class="unsupported">
-			<p>Pré-visualização não disponível para arquivos {extLabel(file.ext)}.</p>
-			<a class="download-btn" href={fileHrefUrl} download={file.name}>Baixar arquivo</a>
-		</div>
+	{#if filteredFiles.length > 0}
+		<ul class="file-list">
+			{#each filteredFiles as f (f.id)}
+				<li>
+					<a class="file-row" href={fileHref(f)} title={f.name}>
+						<span class="ext-badge" style:background={extColor(f.ext)}>{extLabel(f.ext)}</span>
+						<span class="file-name">{fileLabels.get(f)}</span>
+						<span class="file-size">{formatSize(f.sizeBytes)}</span>
+						<span class="chevron" aria-hidden="true">›</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
 	{/if}
 {/if}
 
@@ -309,12 +267,6 @@
 		border-radius: 999px;
 	}
 
-	.ext-badge.large {
-		font-size: 13px;
-		padding: 9px 14px;
-		border-radius: 10px;
-	}
-
 	.file-name {
 		flex: 1;
 		font-size: 14px;
@@ -333,89 +285,6 @@
 	.chevron {
 		color: var(--color-text-muted);
 		flex-shrink: 0;
-	}
-
-	.file-header {
-		display: flex;
-		align-items: flex-start;
-		gap: 16px;
-		margin-bottom: 18px;
-	}
-
-	.file-header-text {
-		flex: 1;
-		min-width: 0;
-	}
-
-	.file-header .title {
-		margin: 0 0 4px;
-		word-break: break-word;
-	}
-
-	.file-meta {
-		font-size: 13px;
-		color: var(--color-text-muted);
-	}
-
-	.toolbar {
-		display: flex;
-		gap: 10px;
-		margin-bottom: 18px;
-	}
-
-	.download {
-		font-size: 13.5px;
-		padding: 10px 18px;
-		border-radius: 999px;
-		background: var(--color-primary);
-		color: #fff;
-		font-weight: 600;
-		box-shadow: var(--shadow-sm);
-	}
-
-	.open-tab {
-		font-size: 13.5px;
-		padding: 10px 18px;
-		border-radius: 999px;
-		border: 1px solid var(--color-border);
-		background: var(--color-surface);
-		color: var(--color-text);
-		font-weight: 600;
-	}
-
-	.viewer {
-		width: 100%;
-		height: calc(100vh - 260px);
-		min-height: 480px;
-		border: 1px solid var(--color-border);
-		border-radius: var(--radius);
-		overflow: hidden;
-		background: var(--color-surface);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.viewer.office {
-		height: auto;
-		overflow: auto;
-	}
-
-	.unsupported {
-		text-align: center;
-		padding: 60px 20px;
-		background: var(--color-surface);
-		border: 1px solid var(--color-border);
-		border-radius: var(--radius);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.download-btn {
-		display: inline-block;
-		margin-top: 14px;
-		padding: 11px 20px;
-		border-radius: 999px;
-		background: var(--color-primary);
-		color: #fff;
-		font-weight: 600;
 	}
 
 	@media (hover: hover) {

@@ -2,6 +2,7 @@ import manifest from './data/manifest.json';
 
 export interface FileNode {
 	type: 'file';
+	id: string;
 	name: string;
 	slug: string[];
 	ext: string;
@@ -35,16 +36,33 @@ export function slugPath(slug: string[]): string {
 	return slug.map(encodeURIComponent).join('/');
 }
 
-export function fileUrl(slug: string[]): string {
-	return `/pops/${slugPath(slug)}`;
+// A URL do arquivo estático usa um id curto (hash) em vez do nome original —
+// nomes longos/com vírgula no caminho quebravam o deploy na Vercel.
+export function fileUrl(file: FileNode): string {
+	return `/pops/${file.id}.${file.ext}`;
 }
 
 export function folderHref(slug: string[]): string {
 	return slug.length === 0 ? '/' : `/p/${slugPath(slug)}`;
 }
 
-export function fileHref(slug: string[]): string {
-	return `/p/${slugPath(slug)}`;
+export function fileHref(file: FileNode): string {
+	return `/f/${file.id}`;
+}
+
+export function findFileById(id: string, node: PopNode = root): FileNode | null {
+	if (node.type === 'file') return node.id === id ? node : null;
+	for (const child of node.children) {
+		const found = findFileById(id, child);
+		if (found) return found;
+	}
+	return null;
+}
+
+export function findParentFolder(fileSlug: string[]): FolderNode | null {
+	const parentSlug = fileSlug.slice(0, -1);
+	const node = findNode(parentSlug);
+	return node && node.type === 'folder' ? node : null;
 }
 
 export function formatSize(bytes: number): string {

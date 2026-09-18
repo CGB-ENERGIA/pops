@@ -6,7 +6,7 @@ export const load: PageLoad = ({ params }) => {
 	const slug = params.slug ? params.slug.split('/') : [];
 	const node = findNode(slug);
 
-	if (!node) error(404, 'Pasta ou arquivo não encontrado.');
+	if (!node || node.type !== 'folder') error(404, 'Pasta não encontrada.');
 
-	return { node, slug };
+	return { folder: node, slug };
 };
