@@ -5,6 +5,642 @@
 	"children": [
 		{
 			"type": "folder",
+			"name": "GERE - CGB",
+			"slug": [
+				"GERE - CGB"
+			],
+			"children": [
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo I - Termo de Ocorrência e Inspeção - TOI_MA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo I - Termo de Ocorrência e Inspeção - TOI_MA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 692244,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo II - Termo de Ocorrência e Inspeção - TOI_PA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo II - Termo de Ocorrência e Inspeção - TOI_PA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 691597,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo III - Termo de Ocorrência e Inspeção - TOI_PI.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo III - Termo de Ocorrência e Inspeção - TOI_PI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 690318,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo IV - Termo de Ocorrência e Inspeção - TOI_AL.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo IV - Termo de Ocorrência e Inspeção - TOI_AL.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 691248,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo IX - Termo de Notificação e Informações Complementares_PI.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo IX - Termo de Notificação e Informações Complementares_PI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 689631,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo V - Termo de Ocorrência e Inspeção - TOI_RS.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo V - Termo de Ocorrência e Inspeção - TOI_RS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 686171,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo VI - Termo de Ocorrência e Inspeção - TOI_AP.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo VI - Termo de Ocorrência e Inspeção - TOI_AP.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 693778,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo VII - Termo de Notificação e Informações Complementares Grupo B_MA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo VII - Termo de Notificação e Informações Complementares Grupo B_MA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1384272,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo VIII - Termo de Notificação e Informações Complementares Grupo B_PA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo VIII - Termo de Notificação e Informações Complementares Grupo B_PA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1374814,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo X - Termo de Notificação e Informações Complementares Grupo B_AL.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo X - Termo de Notificação e Informações Complementares Grupo B_AL.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 698930,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XI -Termo de Notificação e Informações Complementares Grupo B_RS.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XI -Termo de Notificação e Informações Complementares Grupo B_RS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1395769,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XII -Termo de Notificação e Informações Complementares Grupo B_AP.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XII -Termo de Notificação e Informações Complementares Grupo B_AP.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1390346,
+					"modified": "2026-09-10T14:31:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XIII -Termo de Notificação e Informações Complementares Grupo B_GOIÁS.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XIII -Termo de Notificação e Informações Complementares Grupo B_GOIÁS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 708386,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XIV - Termo de Regularização - Clandestino MA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XIV - Termo de Regularização - Clandestino MA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 819368,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XIX - Termo de Regularização - Clandestino_AMAPÁ AP.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XIX - Termo de Regularização - Clandestino_AMAPÁ AP.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 603837,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XV - Termo de Regularização - Clandestino PA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XV - Termo de Regularização - Clandestino PA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 819015,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XVI - Termo de Regularização - Clandestino PI.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XVI - Termo de Regularização - Clandestino PI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 753164,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XVII - Termo de Regularização - Clandestino AL.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XVII - Termo de Regularização - Clandestino AL.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 816439,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XVIII - Termo de Regularização RS_ TR.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XVIII - Termo de Regularização RS_ TR.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 823070,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XX - Termo de Regularização - Clandestino_GOIÁS.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XX - Termo de Regularização - Clandestino_GOIÁS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 111070,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - Anexo XXI - Manual de Procedimentos de Inspeção em Unidades de Baixa Tensão (Laudo Padrão).pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - Anexo XXI - Manual de Procedimentos de Inspeção em Unidades de Baixa Tensão (Laudo Padrão).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 731393,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00293.EQTL - 03 - POP.00293.EQTL - Inspecionar Unidades do Grupo B.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00293.EQTL - 03 - POP.00293.EQTL - Inspecionar Unidades do Grupo B.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 3077620,
+					"modified": "2026-09-10T14:31:54.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00296.EQTL - 05 - POP.00296.EQTL - Inspeção em Unidades do Grupo A e Grupo B Indireto.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00296.EQTL - 05 - POP.00296.EQTL - Inspeção em Unidades do Grupo A e Grupo B Indireto.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 290188,
+					"modified": "2026-09-10T14:33:04.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00297.EQTL - 03 - ANEXO I - Guia para baixa de Notas de Serviços no SAP.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00297.EQTL - 03 - ANEXO I - Guia para baixa de Notas de Serviços no SAP.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 2518639,
+					"modified": "2026-09-10T14:35:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00297.EQTL - 03 - ANEXO II - Guia para baixa de Notas de Serviços no AJURI.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00297.EQTL - 03 - ANEXO II - Guia para baixa de Notas de Serviços no AJURI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 697863,
+					"modified": "2026-09-10T14:35:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00297.EQTL - 03 - POP.00297.EQTL - Instalação do sistema de medição e cadastro comercial.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00297.EQTL - 03 - POP.00297.EQTL - Instalação do sistema de medição e cadastro comercial.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 167902,
+					"modified": "2026-09-10T14:35:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00311.EQTL - 02 - POP.00311.EQTL - Comissionamento de Obra do SMC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00311.EQTL - 02 - POP.00311.EQTL - Comissionamento de Obra do SMC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 108568,
+					"modified": "2026-09-10T14:36:02.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00317.EQTL - 02 - POP.00317.EQTL - Controlar e Distribuir Lacres de Segurança.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00317.EQTL - 02 - POP.00317.EQTL - Controlar e Distribuir Lacres de Segurança.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1617098,
+					"modified": "2026-09-10T14:36:16.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00321.EQTL - 02 - POP.00321.EQTL - Realizar leituras e entrega de contas do GA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00321.EQTL - 02 - POP.00321.EQTL - Realizar leituras e entrega de contas do GA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 104056,
+					"modified": "2026-09-10T14:36:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00322.EQTL - 01 - ANEXO I - Guia para baixa de Notas de Serviços.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00322.EQTL - 01 - ANEXO I - Guia para baixa de Notas de Serviços.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1538286,
+					"modified": "2026-09-10T14:36:32.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00322.EQTL - 01 - POP.00322.EQTL - Executar Baixa em Nota de Serviço de Minigeração.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00322.EQTL - 01 - POP.00322.EQTL - Executar Baixa em Nota de Serviço de Minigeração.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 90595,
+					"modified": "2026-09-10T14:36:32.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo I - Formulário de Solicitação de Acesso.xlsx",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo I - Formulário de Solicitação de Acesso.xlsx"
+					],
+					"ext": "xlsx",
+					"sizeBytes": 286504,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo II - Formulário de Solicitação de Vistoria.xlsx",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo II - Formulário de Solicitação de Vistoria.xlsx"
+					],
+					"ext": "xlsx",
+					"sizeBytes": 33956,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo III - Relatório de Vistoria.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo III - Relatório de Vistoria.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 142030,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo IV - Termo de Ocorre_ncia e Inspeça_o - TOI_MA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo IV - Termo de Ocorre_ncia e Inspeça_o - TOI_MA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 812355,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo IX - Termo de Ocorre_ncia e Inspeça_o - TOI_AP.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo IX - Termo de Ocorre_ncia e Inspeça_o - TOI_AP.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 767433,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo V - Termo de Ocorre_ncia e Inspeça_o - TOI_PA.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo V - Termo de Ocorre_ncia e Inspeça_o - TOI_PA.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 812996,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo VI - Termo de Ocorre_ncia e Inspeça_o - TOI_PI.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo VI - Termo de Ocorre_ncia e Inspeça_o - TOI_PI.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 811054,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo VII - Termo de Ocorre_ncia e Inspeça_o - TOI_AL.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo VII - Termo de Ocorre_ncia e Inspeça_o - TOI_AL.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 823331,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo VIII - Termo de Ocorre_ncia e Inspeça_o - TOI_RS.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo VIII - Termo de Ocorre_ncia e Inspeça_o - TOI_RS.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 817856,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo X - Termo de Notificação e Informações Complementares_Grupo A_MA_ TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo X - Termo de Notificação e Informações Complementares_Grupo A_MA_ TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 841872,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo XI - Termo de Notificação e Informações Complementares_Grupo A_PA_ TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo XI - Termo de Notificação e Informações Complementares_Grupo A_PA_ TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 837264,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo XII - Termo de Notificação e Informações Complementares_Grupo A_PI_ TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo XII - Termo de Notificação e Informações Complementares_Grupo A_PI_ TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 837214,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo XIII - Termo de Notificação e Informações Complementares_Grupo A_AL_ TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo XIII - Termo de Notificação e Informações Complementares_Grupo A_AL_ TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 839780,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo XIV - Termo de Notificação e Informações Complementares A_Grupo A_RS _ TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo XIV - Termo de Notificação e Informações Complementares A_Grupo A_RS _ TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 854167,
+					"modified": "2026-09-10T14:36:50.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - Anexo XV - Termo de Notificação e Informações Complementares_Grupo A_AP- TNIC.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - Anexo XV - Termo de Notificação e Informações Complementares_Grupo A_AP- TNIC.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 836964,
+					"modified": "2026-09-10T14:36:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00323.EQTL - 01 - POP.00323.EQTL - Vistoria e Comissionamento de Minigeracao.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00323.EQTL - 01 - POP.00323.EQTL - Vistoria e Comissionamento de Minigeracao.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1601824,
+					"modified": "2026-09-10T14:36:52.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00327.EQTL - 01 - Anexo I - Relatório de vistoria.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00327.EQTL - 01 - Anexo I - Relatório de vistoria.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 94449,
+					"modified": "2026-09-10T14:37:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00327.EQTL - 01 - POP.00327.EQTL - Vistoria e Comissionamento de Clientes para Migração ao Ambiente de Contratação Livre.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00327.EQTL - 01 - POP.00327.EQTL - Vistoria e Comissionamento de Clientes para Migração ao Ambiente de Contratação Livre.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1531269,
+					"modified": "2026-09-10T14:37:28.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - Anexo I – Modelo de Nota Técnica para Minigeração.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - Anexo I – Modelo de Nota Técnica para Minigeração.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1947500,
+					"modified": "2026-09-10T14:38:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - Anexo II - Modelo Nota Técnica para Microgd e Minigd com inversão de fluxo.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - Anexo II - Modelo Nota Técnica para Microgd e Minigd com inversão de fluxo.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 490488,
+					"modified": "2026-09-10T14:38:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - Anexo III - Divisão de Central Geradora.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - Anexo III - Divisão de Central Geradora.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 1305189,
+					"modified": "2026-09-10T14:38:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - Anexo IV - !Parâmetros LT e Tabela de cabos_EQTL.xlsm",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - Anexo IV - !Parâmetros LT e Tabela de cabos_EQTL.xlsm"
+					],
+					"ext": "xlsm",
+					"sizeBytes": 5964115,
+					"modified": "2026-09-10T14:38:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - Anexo V - Planilha de Tratamento de Medições.xlsm",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - Anexo V - Planilha de Tratamento de Medições.xlsm"
+					],
+					"ext": "xlsm",
+					"sizeBytes": 23006354,
+					"modified": "2026-09-10T14:38:10.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.00401.EQTL - 02 - POP.00401.EQTL - 02 - POP.00401.EQTL - Análise de Conexão de Minigeração.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.00401.EQTL - 02 - POP.00401.EQTL - 02 - POP.00401.EQTL - Análise de Conexão de Minigeração.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 7393890,
+					"modified": "2026-09-10T14:38:12.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.01202.EQTL - 01 - Anexo I - Especificações técnicas quanto aos concentradores primário e secundário 1.pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.01202.EQTL - 01 - Anexo I - Especificações técnicas quanto aos concentradores primário e secundário 1.pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 71984,
+					"modified": "2026-09-10T14:37:46.000Z"
+				},
+				{
+					"type": "file",
+					"name": "POP.01202.EQTL - 01 - POP.01202.EQTL - Serviços para composição de Sistema de Medição Centralizada – SMC (3).pdf",
+					"slug": [
+						"GERE - CGB",
+						"POP.01202.EQTL - 01 - POP.01202.EQTL - Serviços para composição de Sistema de Medição Centralizada – SMC (3).pdf"
+					],
+					"ext": "pdf",
+					"sizeBytes": 6703929,
+					"modified": "2026-09-10T14:37:46.000Z"
+				}
+			]
+		},
+		{
+			"type": "folder",
 			"name": "GOMAN - CGB",
 			"slug": [
 				"GOMAN - CGB"
@@ -291,6 +927,1394 @@
 							"ext": "pdf",
 							"sizeBytes": 1033147,
 							"modified": "2026-09-09T13:32:38.000Z"
+						}
+					]
+				},
+				{
+					"type": "folder",
+					"name": "MANUTENÇÃO",
+					"slug": [
+						"GOMAN - CGB",
+						"MANUTENÇÃO"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 3836749,
+							"modified": "2026-09-10T14:04:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00454.EQTL - 02 - ANEXO I - PLANO MANUTENCAO SKYRITZ.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 3836749,
+							"modified": "2026-09-10T14:04:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea (1).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1862834,
+							"modified": "2026-09-10T14:04:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00454.EQTL - 02 - POP.00454.EQTL - Utilização de cesta aérea.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1862834,
+							"modified": "2026-09-10T14:04:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00465.EQTL - 03 - POP.00465.EQTL - Uso de esporas em redes de distribuição.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 253850,
+							"modified": "2026-09-10T14:02:06.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroçadora e demais Ferramentas no Manejo da Vegetação.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 8100891,
+							"modified": "2026-09-10T14:03:08.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00491.EQTL - 02 - Anexo I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00491.EQTL - 02 - Anexo I - Ilustração de comunicação não verbal para movimentação de cargas com guindauto.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 240639,
+							"modified": "2026-09-10T14:06:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00491.EQTL - 02 - POP.00491.EQTL - Utilização de equipamento de guindar.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 415845,
+							"modified": "2026-09-10T14:06:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de árvores em rede energizada em regime de Linha Viva até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de árvores em rede energizada em regime de Linha Viva até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4682020,
+							"modified": "2026-09-10T14:06:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00507.EQTL - 02 - POP.00507.EQTL - Realizar a correção dos defeitos inspecionados com as equipes.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00507.EQTL - 02 - POP.00507.EQTL - Realizar a correção dos defeitos inspecionados com as equipes.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 11371465,
+							"modified": "2026-09-10T14:08:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00508.EQTL - 02 - POP.00508.EQTL - Realizar Inspeções Visuais em Rede áerea e Rede Subterrânea pelo MAN.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00508.EQTL - 02 - POP.00508.EQTL - Realizar Inspeções Visuais em Rede áerea e Rede Subterrânea pelo MAN.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 8024004,
+							"modified": "2026-09-10T14:08:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar árvores isoladas em redes de distribuição e transmissão.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4855938,
+							"modified": "2026-09-10T14:09:22.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00533.EQTL - 03 - Anexo I - Instalação e Manutenção de Aterramento em estrutura de LD até 138 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00533.EQTL - 03 - Anexo I - Instalação e Manutenção de Aterramento em estrutura de LD até 138 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 2429143,
+							"modified": "2026-09-10T14:10:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00533.EQTL - 03 - POP.00533.EQTL - Instalação e Manutenção de Aterramento no topo da estrutura de concreto.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00533.EQTL - 03 - POP.00533.EQTL - Instalação e Manutenção de Aterramento no topo da estrutura de concreto.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 164282,
+							"modified": "2026-09-10T14:10:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00742.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00742.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 116894,
+							"modified": "2026-09-10T14:10:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00742.EQTL - 00 - POP.00742.EQTL - Retirada de água de Câmaras Transformadoras e Poços de Inspeção.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00742.EQTL - 00 - POP.00742.EQTL - Retirada de água de Câmaras Transformadoras e Poços de Inspeção.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 142850,
+							"modified": "2026-09-10T14:10:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00743.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00743.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105067,
+							"modified": "2026-09-10T14:11:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00743.EQTL - 00 - POP.00743.EQTL - Monitorar atmosfera em locais confinados.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00743.EQTL - 00 - POP.00743.EQTL - Monitorar atmosfera em locais confinados.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 160427,
+							"modified": "2026-09-10T14:11:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00744.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00744.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 116096,
+							"modified": "2026-09-10T14:12:22.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00744.EQTL - 00 - POP.00744.EQTL - Abrir e Fechar Tampa de Acesso Pessoal de Câmaras Transformadoras.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00744.EQTL - 00 - POP.00744.EQTL - Abrir e Fechar Tampa de Acesso Pessoal de Câmaras Transformadoras.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 127243,
+							"modified": "2026-09-10T14:12:22.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00745.EQTL - 01 - POP.00745.EQTL - Utilização de Tripé para Escada.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4661853,
+							"modified": "2026-09-10T14:13:08.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00748.EQTL - 01 - POP.00748.EQTL - Critérios de Manutenção de Equipamentos e Instalações.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00748.EQTL - 01 - POP.00748.EQTL - Critérios de Manutenção de Equipamentos e Instalações.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 155504,
+							"modified": "2026-09-10T14:13:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00755.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00755.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105551,
+							"modified": "2026-09-10T14:13:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00755.EQTL - 00 - POP.00755.EQTL - Realizar aterramento temporário em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00755.EQTL - 00 - POP.00755.EQTL - Realizar aterramento temporário em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 277783,
+							"modified": "2026-09-10T14:13:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00756.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00756.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105554,
+							"modified": "2026-09-10T14:14:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00756.EQTL - 00 - POP.00756.EQTL - Instalação de Monitoramento de Camaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00756.EQTL - 00 - POP.00756.EQTL - Instalação de Monitoramento de Camaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 171543,
+							"modified": "2026-09-10T14:14:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00758.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00758.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105775,
+							"modified": "2026-09-10T14:14:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00758.EQTL - 00 - POP.00758.EQTL - Instalação e Retirada de Equipamentos em Câmaras Transformadoras (TR, Bomba, Exaustor, Quadro Comando) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00758.EQTL - 00 - POP.00758.EQTL - Instalação e Retirada de Equipamentos em Câmaras Transformadoras (TR, Bomba, Exaustor, Quadro Comando) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 238634,
+							"modified": "2026-09-10T14:14:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00759.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00759.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105773,
+							"modified": "2026-09-10T14:15:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00759.EQTL - 00 - POP.00759.EQTL - Abertura de Cabos em MT Potencialmente Energizados em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00759.EQTL - 00 - POP.00759.EQTL - Abertura de Cabos em MT Potencialmente Energizados em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 187543,
+							"modified": "2026-09-10T14:15:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00760.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00760.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105554,
+							"modified": "2026-09-10T14:15:32.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00760.EQTL - 00 - POP.00760.EQTL - Confecção de Terminais Desconectaveis de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00760.EQTL - 00 - POP.00760.EQTL - Confecção de Terminais Desconectaveis de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 181837,
+							"modified": "2026-09-10T14:15:32.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00761.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00761.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105775,
+							"modified": "2026-09-10T14:15:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00761.EQTL - 00 - POP.00761.EQTL - Confecção de Emendas em Cabos de Média Tensão (cabos seco_seco e PILCC_seco) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00761.EQTL - 00 - POP.00761.EQTL - Confecção de Emendas em Cabos de Média Tensão (cabos seco_seco e PILCC_seco) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 197981,
+							"modified": "2026-09-10T14:15:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00762.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00762.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105553,
+							"modified": "2026-09-10T14:16:06.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00762.EQTL - 00 - POP.00762.EQTL - Confecção de Terminal Externo em Cabo de Baixa Tensão ( terminal em fachada) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00762.EQTL - 00 - POP.00762.EQTL - Confecção de Terminal Externo em Cabo de Baixa Tensão ( terminal em fachada) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 172686,
+							"modified": "2026-09-10T14:16:06.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00763.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00763.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105773,
+							"modified": "2026-09-10T14:16:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00763.EQTL - 00 - POP.00763.EQTL - Confecção de Emendas e Terminais em Cabos de BT – Cabo Armado em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00763.EQTL - 00 - POP.00763.EQTL - Confecção de Emendas e Terminais em Cabos de BT – Cabo Armado em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 199696,
+							"modified": "2026-09-10T14:16:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET). (14).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET). (14).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 109702,
+							"modified": "2026-09-10T14:16:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET)..pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00764.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET)..pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 109702,
+							"modified": "2026-09-10T14:16:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00764.EQTL - 01 - POP.00764.EQTL - Utilização do Identificador de Cabos de Potência em Rede Distribuição Subterrânea MT em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00764.EQTL - 01 - POP.00764.EQTL - Utilização do Identificador de Cabos de Potência em Rede Distribuição Subterrânea MT em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 231589,
+							"modified": "2026-09-10T14:16:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00767.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00767.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105773,
+							"modified": "2026-09-10T14:16:58.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00767.EQTL - 00 - POP.00767.EQTL - Inspeção em Câmaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00767.EQTL - 00 - POP.00767.EQTL - Inspeção em Câmaras Transformadoras em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 152365,
+							"modified": "2026-09-10T14:16:58.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00768.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00768.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105552,
+							"modified": "2026-09-10T14:17:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00768.EQTL - 00 - POP.00768.EQTL - Inspeção em Caixas de Ligação (CL) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00768.EQTL - 00 - POP.00768.EQTL - Inspeção em Caixas de Ligação (CL) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 150752,
+							"modified": "2026-09-10T14:17:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00769.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00769.EQTL - 00 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 105774,
+							"modified": "2026-09-10T14:17:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00769.EQTL - 00 - POP.00769.EQTL - Inspeção em Câmaras em Sala (CS) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00769.EQTL - 00 - POP.00769.EQTL - Inspeção em Câmaras em Sala (CS) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 155626,
+							"modified": "2026-09-10T14:17:48.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00770.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00770.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 119649,
+							"modified": "2026-09-10T14:18:20.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00770.EQTL - 01 - POP.00770.EQTL - Inspeção em Caixas de Derivação (CDs) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00770.EQTL - 01 - POP.00770.EQTL - Inspeção em Caixas de Derivação (CDs) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 136725,
+							"modified": "2026-09-10T14:18:20.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 79526,
+							"modified": "2026-09-10T14:18:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00772.EQTL - 01 - Anexo I - Ficha de Inspecao - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 79526,
+							"modified": "2026-09-10T14:18:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV (20).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 99149,
+							"modified": "2026-09-10T14:18:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00772.EQTL - 01 - POP.00772.EQTL - Inspeção Termográfica em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 99149,
+							"modified": "2026-09-10T14:18:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00773.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00773.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121631,
+							"modified": "2026-09-10T14:19:30.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00773.EQTL - 01 - POP.00773.EQTL - Realizar medição de corrente instantânea e gráfica em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00773.EQTL - 01 - POP.00773.EQTL - Realizar medição de corrente instantânea e gráfica em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 156143,
+							"modified": "2026-09-10T14:19:30.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00774.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00774.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121631,
+							"modified": "2026-09-10T14:20:36.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00774.EQTL - 01 - POP.00774.EQTL - Inspeção em chaves seccionadoras isoladas a Gás SF6 em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00774.EQTL - 01 - POP.00774.EQTL - Inspeção em chaves seccionadoras isoladas a Gás SF6 em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 177404,
+							"modified": "2026-09-10T14:20:36.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00775.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00775.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121064,
+							"modified": "2026-09-10T14:20:46.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00775.EQTL - 01 - POP.00775.EQTL - Inspeção em transformadores pad-mounted em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00775.EQTL - 01 - POP.00775.EQTL - Inspeção em transformadores pad-mounted em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 144539,
+							"modified": "2026-09-10T14:20:46.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00776.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00776.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121632,
+							"modified": "2026-09-10T14:20:58.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00776.EQTL - 01 - POP.00776.EQTL - Realizar coleta para análise de óleo isolante de equipamentos em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00776.EQTL - 01 - POP.00776.EQTL - Realizar coleta para análise de óleo isolante de equipamentos em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 180935,
+							"modified": "2026-09-10T14:20:58.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00777.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00777.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121629,
+							"modified": "2026-09-10T14:21:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00777.EQTL - 01 - POP.00777.EQTL - Entrada e Saída de Câmaras Transformadoras, Poços de Inspeção e Câmaras em Sala em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00777.EQTL - 01 - POP.00777.EQTL - Entrada e Saída de Câmaras Transformadoras, Poços de Inspeção e Câmaras em Sala em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 198715,
+							"modified": "2026-09-10T14:21:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00778.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00778.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121060,
+							"modified": "2026-09-10T14:21:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00778.EQTL - 01 - POP.00778.EQTL - Instalação e Remoção de Cabos de Média e Baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00778.EQTL - 01 - POP.00778.EQTL - Instalação e Remoção de Cabos de Média e Baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 189512,
+							"modified": "2026-09-10T14:21:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET) (27).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET) (27).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121059,
+							"modified": "2026-09-10T14:21:32.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00779.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121059,
+							"modified": "2026-09-10T14:21:32.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00779.EQTL - 01 - POP.00779.EQTL - Abertura e Manutenção Chave Primária Isolada a Óleo em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00779.EQTL - 01 - POP.00779.EQTL - Abertura e Manutenção Chave Primária Isolada a Óleo em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 198798,
+							"modified": "2026-09-10T14:21:32.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00783.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00783.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121067,
+							"modified": "2026-09-10T14:21:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00783.EQTL - 01 - POP.00783.EQTL - Realizar diagnóstico em cabos em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00783.EQTL - 01 - POP.00783.EQTL - Realizar diagnóstico em cabos em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 245562,
+							"modified": "2026-09-10T14:21:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00784.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00784.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121634,
+							"modified": "2026-09-10T14:21:52.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00784.EQTL - 01 - POP.00784.EQTL - 00 - POP.00784.EQTL - Limpeza e Lavagem de Camaras transformadoras e Caixas de Ligação em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00784.EQTL - 01 - POP.00784.EQTL - 00 - POP.00784.EQTL - Limpeza e Lavagem de Camaras transformadoras e Caixas de Ligação em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 175535,
+							"modified": "2026-09-10T14:21:52.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00785.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00785.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121069,
+							"modified": "2026-09-10T14:21:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00785.EQTL - 01 - POP.00785.EQTL - Confecção de Terminações em Cabos de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00785.EQTL - 01 - POP.00785.EQTL - Confecção de Terminações em Cabos de Média Tensão em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 193272,
+							"modified": "2026-09-10T14:21:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00786.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00786.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121067,
+							"modified": "2026-09-10T14:22:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00786.EQTL - 01 - POP.00786.EQTL - Confecção de emenda unipolar em cabos de baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00786.EQTL - 01 - POP.00786.EQTL - Confecção de emenda unipolar em cabos de baixa tensão em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 211634,
+							"modified": "2026-09-10T14:22:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00788.EQTL - 01 - Anexo I - Componentes e sequência de montagem de andaimes isolados.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00788.EQTL - 01 - Anexo I - Componentes e sequência de montagem de andaimes isolados.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 3438969,
+							"modified": "2026-09-10T14:22:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00788.EQTL - 01 - POP.00788.EQTL - Montagem e utilização de andaime isolado em rede de distribuição de média tensão (13,8 kV a 34,5 kV).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00788.EQTL - 01 - POP.00788.EQTL - Montagem e utilização de andaime isolado em rede de distribuição de média tensão (13,8 kV a 34,5 kV).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 147917,
+							"modified": "2026-09-10T14:22:14.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00791.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00791.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121067,
+							"modified": "2026-09-10T14:22:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00791.EQTL - 01 - POP.00791.EQTL - Conexão e Desconexão de Cabos MT e BT dos Equipamentos (Chave Primária e Network Protector) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00791.EQTL - 01 - POP.00791.EQTL - Conexão e Desconexão de Cabos MT e BT dos Equipamentos (Chave Primária e Network Protector) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 222750,
+							"modified": "2026-09-10T14:22:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00792.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00792.EQTL - 01 - Anexo I - Formulário de Permissão de Entrada e Trabalho (PET).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 121066,
+							"modified": "2026-09-10T14:22:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00792.EQTL - 01 - POP.00792.EQTL - Localização de falhas em cabos de média tensão (Tensão Aplicada CC e Unidade SSG) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00792.EQTL - 01 - POP.00792.EQTL - Localização de falhas em cabos de média tensão (Tensão Aplicada CC e Unidade SSG) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 278854,
+							"modified": "2026-09-10T14:22:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00794.EQTL - 01 - POP.00794.EQTL - Abertura e fechamento de valas em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00794.EQTL - 01 - POP.00794.EQTL - Abertura e fechamento de valas em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 170254,
+							"modified": "2026-09-10T14:22:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00806.EQTL - 01 - POP.00806.EQTL - Inspeção em Empreendimentos de multiplas unidades consumidoras (EMUC) em rede de distribuição subterrânea até 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00806.EQTL - 01 - POP.00806.EQTL - Inspeção em Empreendimentos de multiplas unidades consumidoras (EMUC) em rede de distribuição subterrânea até 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 173298,
+							"modified": "2026-09-10T14:23:02.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00808.EQTL - 03 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00808.EQTL - 03 - POP.00808.EQTL - Instalação de Poste Telescópico em Liga de Alumínio.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 7300177,
+							"modified": "2026-09-10T14:23:20.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00869.EQTL - 01 - POP.00869.EQTL - Técnicas de resgate em trabalhos com andaime isolado em Rede de Distribuição de Média Tensão (13,8 kV a 34,5 kV).pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00869.EQTL - 01 - POP.00869.EQTL - Técnicas de resgate em trabalhos com andaime isolado em Rede de Distribuição de Média Tensão (13,8 kV a 34,5 kV).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 116344,
+							"modified": "2026-09-10T14:23:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00870.EQTL - 01 - POP.00870.EQTL - Substituição de para-raios em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00870.EQTL - 01 - POP.00870.EQTL - Substituição de para-raios em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 128193,
+							"modified": "2026-09-10T14:23:42.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00871.EQTL - 01 - POP.00871.EQTL - Emenda e reparo de condutor primário em rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00871.EQTL - 01 - POP.00871.EQTL - Emenda e reparo de condutor primário em rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 134271,
+							"modified": "2026-09-10T14:23:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00872.EQTL - 01 - POP.00872.EQTL - Substituição de chave faca unipolar em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00872.EQTL - 01 - POP.00872.EQTL - Substituição de chave faca unipolar em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 130980,
+							"modified": "2026-09-10T14:24:02.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00873.EQTL - 01 - POP.00873.EQTL - Substituição de chave fusível em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00873.EQTL - 01 - POP.00873.EQTL - Substituição de chave fusível em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 132354,
+							"modified": "2026-09-10T14:24:06.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00874.EQTL - 01 - POP.00874.EQTL - Substituição de jumpers e conexões em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00874.EQTL - 01 - POP.00874.EQTL - Substituição de jumpers e conexões em manutenção de rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 131626,
+							"modified": "2026-09-10T14:24:16.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00875.EQTL - 01 - POP.00875.EQTL - Substituição de isolador de pino e de ancoragem em rede energizada até 34,5 kV com uso de andaime isolado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00875.EQTL - 01 - POP.00875.EQTL - Substituição de isolador de pino e de ancoragem em rede energizada até 34,5 kV com uso de andaime isolado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 135424,
+							"modified": "2026-09-10T14:24:26.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00890.EQTL - 01 - Anexo I -  Sequência de abertura de Chaves e Sequência de fechamento de Chaves.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 281726,
+							"modified": "2026-09-10T14:24:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00890.EQTL - 01 - Anexo II -  FLUXOGRAMAS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1789869,
+							"modified": "2026-09-10T14:24:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00890.EQTL - 01 - POP.00890.EQTL - OPERAÇÃO DE CHAVES SECCIONADORAS EM REDES DE MÉDIA TENSÃO.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1018746,
+							"modified": "2026-09-10T14:24:38.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00918.EQTL - 07 - Anexo I - Fluxograma.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00918.EQTL - 07 - Anexo I - Fluxograma.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 98043,
+							"modified": "2026-09-10T14:24:46.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.00918.EQTL - 07 - POP.00918.EQTL - Serviços de manutenção em redes de distribuição desenergizadas - MT 13,8 a 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 1663346,
+							"modified": "2026-09-10T14:24:46.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01139.EQTL - 02 - Anexo I - Instrução de Serviço para Comissionamento de Religadores.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.01139.EQTL - 02 - Anexo I - Instrução de Serviço para Comissionamento de Religadores.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 466800,
+							"modified": "2026-09-10T14:25:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01139.EQTL - 02 - POP.01139.EQTL - Serviços de manutenção em redes aéreas de distribuição de média e baixa tensão energizadas.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.01139.EQTL - 02 - POP.01139.EQTL - Serviços de manutenção em redes aéreas de distribuição de média e baixa tensão energizadas.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 6528237,
+							"modified": "2026-09-10T14:25:18.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01213.EQTL - 00 - POP.01213.EQTL - Serviços de manutenção em redes de distribuição de desenergizadas – BT 220380 V.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"MANUTENÇÃO",
+								"POP.01213.EQTL - 00 - POP.01213.EQTL - Serviços de manutenção em redes de distribuição de desenergizadas – BT 220380 V.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 2369039,
+							"modified": "2026-09-10T14:26:00.000Z"
+						}
+					]
+				},
+				{
+					"type": "folder",
+					"name": "PODA",
+					"slug": [
+						"GOMAN - CGB",
+						"PODA"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00168.EQTL  - Comunicao com o COI.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00168.EQTL  - Comunicao com o COI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 386821,
+							"modified": "2026-09-18T13:08:57.058Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00179.EQTL - Realizar Desligamento Programado em Redes de Distribuio.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00179.EQTL - Realizar Desligamento Programado em Redes de Distribuio.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 571690,
+							"modified": "2026-09-18T13:08:57.026Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00202.EQTL - Realizar Desligamento Emergencial em RD.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00202.EQTL - Realizar Desligamento Emergencial em RD.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 491713,
+							"modified": "2026-09-18T13:08:57.043Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00453.EQTL - Realizar poda em manuteno de rede desenergizada at 34,5 kV.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00453.EQTL - Realizar poda em manuteno de rede desenergizada at 34,5 kV.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 442432,
+							"modified": "2026-09-18T13:08:57.153Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00454.EQTL - Utilizao de cesto ereo.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00454.EQTL - Utilizao de cesto ereo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 567072,
+							"modified": "2026-09-18T13:08:57.137Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroadora e demais Ferramentas .pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00466.EQTL - 04 - POP.00466.EQTL - Utilizar Motosserra Motopoda Motorroadora e demais Ferramentas .pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 8131835,
+							"modified": "2026-09-18T13:08:57.122Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00466.EQTL - Utilizao de Motopoda e Motoserra.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00466.EQTL - Utilizao de Motopoda e Motoserra.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 395835,
+							"modified": "2026-09-18T13:08:56.787Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00468.EQTL - Realizar Podas prximo  rede energizada.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00468.EQTL - Realizar Podas prximo  rede energizada.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 355981,
+							"modified": "2026-09-18T13:08:56.811Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de rvores em rede energizada em regime de Linha V.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00495.EQTL - 03 - POP.00495.EQTL - Realizar poda de rvores em rede energizada em regime de Linha V.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4704417,
+							"modified": "2026-09-18T13:08:56.855Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00516.EQTL -  Supresso de vegetao, corte e poda de rvores.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00516.EQTL -  Supresso de vegetao, corte e poda de rvores.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 180197,
+							"modified": "2026-09-18T13:08:56.914Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar rvores isoladas em redes de distribuio e transmisso (.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00516.EQTL - 02 - POP.00516.EQTL - Cortar rvores isoladas em redes de distribuio e transmisso (.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4874745,
+							"modified": "2026-09-18T13:08:56.900Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00534.EQTL - 03 - POP.00534.EQTL - Realizar poda de rvores em LD - mtodo a distncia 1.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00534.EQTL - 03 - POP.00534.EQTL - Realizar poda de rvores em LD - mtodo a distncia 1.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4367823,
+							"modified": "2026-09-18T13:08:56.957Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00900.EQTL - 01 - Anexo I - ngulo de fotografias dos servios.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00900.EQTL - 01 - Anexo I - ngulo de fotografias dos servios.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 218847,
+							"modified": "2026-09-18T13:08:57.010Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de rvores a distncia e em circuito desenergizado.pdf",
+							"slug": [
+								"GOMAN - CGB",
+								"PODA",
+								"POP.00900.EQTL - 01 - POP.00900.EQTL - Realizar poda de rvores a distncia e em circuito desenergizado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4079873,
+							"modified": "2026-09-18T13:08:56.996Z"
 						}
 					]
 				}
@@ -863,6 +2887,880 @@
 					"ext": "pdf",
 					"sizeBytes": 5506187,
 					"modified": "2026-08-28T12:18:52.000Z"
+				},
+				{
+					"type": "folder",
+					"name": "SERVIÇOS DE REDE",
+					"slug": [
+						"GSTC - CGB",
+						"SERVIÇOS DE REDE"
+					],
+					"children": [
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO I _ Aviso Medição Permanente - Pará.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO I _ Aviso Medição Permanente - Pará.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 173453,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO II- Aviso Medição Permanente - Alagoas.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO II- Aviso Medição Permanente - Alagoas.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 171098,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO III - Aviso de Medição Permanente - Maranhão.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO III - Aviso de Medição Permanente - Maranhão.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 172746,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO IV - Aviso Medição Permanente - Piaui (1)_Revisado.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO IV - Aviso Medição Permanente - Piaui (1)_Revisado.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 171407,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO IX - Notificação de Impedimento de Acesso - Maranhão.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO IX - Notificação de Impedimento de Acesso - Maranhão.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 78107,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO V - Aviso Medição Permanente RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO V - Aviso Medição Permanente RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 172604,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO VI  CSM Medidor de Qualidade.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO VI  CSM Medidor de Qualidade.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 89290,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO VII - Notificação de Impedimento de Acesso - Pará.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO VII - Notificação de Impedimento de Acesso - Pará.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 78089,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO VIII - Notificação de Impedimento de Acesso - Alagoas.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO VIII - Notificação de Impedimento de Acesso - Alagoas.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 78818,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO X - Notificação de Impedimento de Acesso - Piaui.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO X - Notificação de Impedimento de Acesso - Piaui.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 78827,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XI - Notificação de Impedimento de Acesso - RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XI - Notificação de Impedimento de Acesso - RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 79134,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XII - Aviso de Medição Permanente - Amapá.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XII - Aviso de Medição Permanente - Amapá.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 169989,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XIII - Notificação de Impedimento de Acesso - Amapá.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XIII - Notificação de Impedimento de Acesso - Amapá.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 78822,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XIV - Aviso de Medição Permanente _ Goiás.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XIV - Aviso de Medição Permanente _ Goiás.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 170631,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XV - Notificação de Impedimento de Acesso - Goiás.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XV - Notificação de Impedimento de Acesso - Goiás.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 73274,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XVI - Pará -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XVI - Pará -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 95423,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XVII - Alagoas -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XVII - Alagoas -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 109974,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XVIII - Maranhão -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XVIII - Maranhão -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 111902,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XX - RS -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XX - RS -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 113315,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XXI - Amapá -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XXI - Amapá -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 109380,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - ANEXO XXII - Goias -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - ANEXO XXII - Goias -  Comunicado de Instalação de Medidor de Qualidade_Medidor Externo.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 94640,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00287.EQTL - 04 - POP.00287.EQTL. Troca e Instalação de Medição _ Modalidade Amostral e Permanente.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00287.EQTL - 04 - POP.00287.EQTL. Troca e Instalação de Medição _ Modalidade Amostral e Permanente.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 196875,
+							"modified": "2026-09-14T12:06:04.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo I _ Formulario Rejeicao MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo I _ Formulario Rejeicao MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 82708,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo II _ Formulario Rejeicao PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo II _ Formulario Rejeicao PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 83270,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo III _ Formulario Rejeicao PI.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo III _ Formulario Rejeicao PI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 83081,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo IV _ Formulario Rejeicao AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo IV _ Formulario Rejeicao AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 83468,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo V _ Formulario Rejeicao RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo V _ Formulario Rejeicao RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 87521,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo VI _ Formulario Rejeicao AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL - 03 - Anexo VI _ Formulario Rejeicao AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 85204,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo B.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00291.EQTL - 03 - POP.00291.EQTL. Ligação Nova e ou Troca de Padrão de Clientes do Grupo B.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 389444,
+							"modified": "2026-09-14T12:06:28.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (1).pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00292.EQTL - 02 - POP.00292.EQTL -Vistoriar e Ligar Múltiplas Unidades Consumidoras (1).pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 152214,
+							"modified": "2026-09-14T12:07:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo I - Formulario Rejeicao MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo I - Formulario Rejeicao MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 774195,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo II - Formulario Rejeicao PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo II - Formulario Rejeicao PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 772600,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo III - Formulario Rejeicao PI.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo III - Formulario Rejeicao PI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 773330,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo IV - Formulario Rejeicao AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo IV - Formulario Rejeicao AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 775095,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo V - Formulario Rejeicao RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo V - Formulario Rejeicao RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 779689,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - Anexo VI - Formulario Rejeicao AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - Anexo VI - Formulario Rejeicao AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 774498,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Pro.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00298.EQTL - 02 - POP.00298 EQTL - Realizar Vistoria e Conexão de Ligação Pro.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 165019,
+							"modified": "2026-09-14T12:08:54.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo I - Financiamento de Padrão - Serviços de Rede - MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo I - Financiamento de Padrão - Serviços de Rede - MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 554751,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo II - Financiamento de Padrão - Serviços de Rede - PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo II - Financiamento de Padrão - Serviços de Rede - PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 554730,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo III - Financiamento de Padrão - Serviços de Rede - PI.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo III - Financiamento de Padrão - Serviços de Rede - PI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 554679,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo IV - Financiamento de Padrão - Serviços de Rede - AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo IV - Financiamento de Padrão - Serviços de Rede - AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 554780,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo V - Financiamento de Padrão - Serviços de Rede - RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo V - Financiamento de Padrão - Serviços de Rede - RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 654522,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - Anexo VI - Financiamento de Padrão - Serviços de Rede - AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - Anexo VI - Financiamento de Padrão - Serviços de Rede - AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 554723,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00302.EQTL - 02 - POP.00302.EQTL - Financiamento de Padrão.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00302.EQTL - 02 - POP.00302.EQTL - Financiamento de Padrão.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 101683,
+							"modified": "2026-09-14T12:09:10.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 211673,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 100679,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 94487,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 95213,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 100613,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 102804,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 99833,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00331.EQTL - 02 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00331.EQTL - 02 - POP.00331.EQTL - Vistoriar e Ligar clientes Micro Geradores.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 126310,
+							"modified": "2026-09-14T12:09:24.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo I - Relatório de Vistoria.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 168024,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo II - Comunicado de Substituição do Medidor - CSM _MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 95515,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo III - Comunicado de Substituição do Medidor - CSM _PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 94452,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo IV - Comunicado de Substituição do Medidor - CSM _PI.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 90143,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo V - Comunicado de Substituição do Medidor - CSM _AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 95759,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo VI - Comunicado de Substituição do Medidor - CSM _RS.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 97661,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - Anexo VII - Comunicado de Substituição do Medidor - CSM _AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 94675,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00334.EQTL - 02 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00334.EQTL - 02 - POP.00334.EQTL - Executar Baixa em Nota de Serviço de Microgeração.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 99217,
+							"modified": "2026-09-14T12:09:34.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - Anexo I Formulário de Rejeição.MA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - Anexo I Formulário de Rejeição.MA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 773403,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - Anexo II Formulário Rejeição PA.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - Anexo II Formulário Rejeição PA.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 773811,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - Anexo III Formulário Rejeição_.PI 1.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - Anexo III Formulário Rejeição_.PI 1.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 52856,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - Anexo IV – Formulário Rejeição.AL.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - Anexo IV – Formulário Rejeição.AL.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 772223,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - Anexo V Formulário de Rejeição.AP.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - Anexo V Formulário de Rejeição.AP.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 773180,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00335.EQTL - 02 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00335.EQTL - 02 - POP.00335.EQTL - Execução de Desligamento a Pedido do Cliente do Grupo B.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 164388,
+							"modified": "2026-09-14T12:09:50.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00962.EQTL - 04 - Anexo I -   Gerador de ajuste de dados de medição.xlsm",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00962.EQTL - 04 - Anexo I -   Gerador de ajuste de dados de medição.xlsm"
+							],
+							"ext": "xlsm",
+							"sizeBytes": 307655,
+							"modified": "2026-09-14T12:09:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.00962.EQTL - 04 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.00962.EQTL - 04 - POP.00962.EQTL - Ocorrencias em redes de baixa e média tensão.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 4910193,
+							"modified": "2026-09-14T12:09:56.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01203.EQTL - 00 - Anexo I - Formulário Rejeição.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.01203.EQTL - 00 - Anexo I - Formulário Rejeição.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 487298,
+							"modified": "2026-09-14T12:10:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01203.EQTL - 00 - Anexo II - Formulário de Religação.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.01203.EQTL - 00 - Anexo II - Formulário de Religação.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 2410076,
+							"modified": "2026-09-14T12:10:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01203.EQTL - 00 - Anexo III - Termo de Ocorrência de Auto-Religação.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.01203.EQTL - 00 - Anexo III - Termo de Ocorrência de Auto-Religação.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 970716,
+							"modified": "2026-09-14T12:10:12.000Z"
+						},
+						{
+							"type": "file",
+							"name": "POP.01203.EQTL - 00 - POP.01203.EQTL - Religação de Unidade Consumidora.pdf",
+							"slug": [
+								"GSTC - CGB",
+								"SERVIÇOS DE REDE",
+								"POP.01203.EQTL - 00 - POP.01203.EQTL - Religação de Unidade Consumidora.pdf"
+							],
+							"ext": "pdf",
+							"sizeBytes": 307635,
+							"modified": "2026-09-14T12:10:12.000Z"
+						}
+					]
 				}
 			]
 		},
@@ -943,9 +3841,9 @@
 		},
 		{
 			"type": "file",
-			"name": "TRILHAS MÓDULOS E POPS - kit do multiplicador (1).xlsx",
+			"name": "TRILHAS MÓDULOS E POPS - kit do multiplicador.xlsx",
 			"slug": [
-				"TRILHAS MÓDULOS E POPS - kit do multiplicador (1).xlsx"
+				"TRILHAS MÓDULOS E POPS - kit do multiplicador.xlsx"
 			],
 			"ext": "xlsx",
 			"sizeBytes": 79330,

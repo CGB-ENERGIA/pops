@@ -81,6 +81,8 @@ const EXT_LABEL: Record<string, string> = {
 	doc: 'Word',
 	xlsx: 'Excel',
 	xls: 'Excel',
+	xlsm: 'Excel',
+	xlsb: 'Excel',
 	pptx: 'PowerPoint',
 	ppt: 'PowerPoint'
 };
@@ -95,6 +97,8 @@ const EXT_COLOR: Record<string, string> = {
 	doc: '#2563eb',
 	xlsx: '#0f9d58',
 	xls: '#0f9d58',
+	xlsm: '#0f9d58',
+	xlsb: '#0f9d58',
 	pptx: '#d97706',
 	ppt: '#d97706'
 };

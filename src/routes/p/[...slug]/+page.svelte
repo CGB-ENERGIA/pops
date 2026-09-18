@@ -50,7 +50,7 @@
 	let fileHrefUrl = $derived(file ? fileUrl(file.slug) : '');
 	let isPdf = $derived(file?.ext === 'pdf');
 	let isOffice = $derived(
-		file ? ['xlsx', 'xls', 'docx', 'doc'].includes(file.ext) : false
+		file ? ['xlsx', 'xls', 'xlsm', 'xlsb', 'docx', 'doc'].includes(file.ext) : false
 	);
 </script>
 

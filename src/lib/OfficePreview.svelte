@@ -14,7 +14,7 @@
 		docHtml = '';
 		activeSheet = 0;
 
-		const isSpreadsheet = ext === 'xlsx' || ext === 'xls';
+		const isSpreadsheet = ['xlsx', 'xls', 'xlsm', 'xlsb'].includes(ext);
 		const currentUrl = url;
 
 		(async () => {

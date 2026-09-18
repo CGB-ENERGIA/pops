@@ -18,7 +18,17 @@ const SOURCE_DIR =
 const DEST_DIR = resolve(PROJECT_ROOT, 'static', 'pops');
 const MANIFEST_PATH = resolve(PROJECT_ROOT, 'src', 'lib', 'data', 'manifest.json');
 
-const ALLOWED_EXT = new Set(['.pdf', '.docx', '.xlsx', '.pptx', '.doc', '.xls', '.ppt']);
+const ALLOWED_EXT = new Set([
+	'.pdf',
+	'.docx',
+	'.xlsx',
+	'.xlsm',
+	'.xlsb',
+	'.pptx',
+	'.doc',
+	'.xls',
+	'.ppt'
+]);
 const IGNORE_DIRS = new Set(['.claude', '.git', 'node_modules']);
 
 if (!existsSync(SOURCE_DIR)) {
