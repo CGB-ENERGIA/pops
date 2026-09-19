@@ -2765,66 +2765,6 @@
 				},
 				{
 					"type": "file",
-					"id": "915735ebdabe",
-					"name": "POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1) (1).pdf",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00110.EQTL - Fundamentos de Segurança em Campo e Atividades Preliminares (1) (1).pdf"
-					],
-					"ext": "pdf",
-					"sizeBytes": 4892931,
-					"modified": "2026-09-01T20:13:54.000Z"
-				},
-				{
-					"type": "file",
-					"id": "4c46ca2d4ee1",
-					"name": "POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00111.EQTL - Segurança em Trabalho em Altura (1).pdf"
-					],
-					"ext": "pdf",
-					"sizeBytes": 4269569,
-					"modified": "2026-09-01T20:43:22.000Z"
-				},
-				{
-					"type": "file",
-					"id": "ff0f9e373e0f",
-					"name": "POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00112.EQTL - Segurança em Trabalho Elétrico (1).pdf"
-					],
-					"ext": "pdf",
-					"sizeBytes": 4304406,
-					"modified": "2026-09-03T14:15:42.000Z"
-				},
-				{
-					"type": "file",
-					"id": "db34086057d9",
-					"name": "POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00115.EQTL - Inspeção de Equipamentos de Protecao Individual e Coletiva (1).pdf"
-					],
-					"ext": "pdf",
-					"sizeBytes": 3959447,
-					"modified": "2026-09-03T14:17:02.000Z"
-				},
-				{
-					"type": "file",
-					"id": "7923d1220e3b",
-					"name": "POP.00168.EQTL - 01 - POP.00168.EQTL  - Comunicação com o COI.docx",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00168.EQTL - 01 - POP.00168.EQTL  - Comunicação com o COI.docx"
-					],
-					"ext": "docx",
-					"sizeBytes": 288699,
-					"modified": "1980-01-01T03:00:00.000Z"
-				},
-				{
-					"type": "file",
 					"id": "57ae1a0aaead",
 					"name": "POP.00202.EQTL - 02 - POP.00202.EQTL  - Realizar Desligamento Emergencial em RD (6).pdf",
 					"slug": [
@@ -2882,18 +2822,6 @@
 					"ext": "pdf",
 					"sizeBytes": 2592695,
 					"modified": "2026-08-14T17:07:56.000Z"
-				},
-				{
-					"type": "file",
-					"id": "e4731004bf6a",
-					"name": "POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf",
-					"slug": [
-						"GSTC - CGB",
-						"POP.00284.EQTL - Serviços Elétricos em Condições Climaticas Adversas (1).pdf"
-					],
-					"ext": "pdf",
-					"sizeBytes": 4159263,
-					"modified": "2026-09-03T14:22:56.000Z"
 				},
 				{
 					"type": "file",
