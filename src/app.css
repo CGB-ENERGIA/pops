@@ -19,6 +19,24 @@
 		'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+		--color-bg: #111218;
+		--color-surface: #1c1d2b;
+		--color-surface-muted: #161721;
+		--color-border: #2d2f45;
+		--color-text: #e4e6f1;
+		--color-text-muted: #8b8fa8;
+		--color-primary: #7c7af5;
+		--color-primary-dark: #6366f1;
+		--color-primary-soft: rgba(124, 122, 245, 0.15);
+		--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+		--shadow-md: 0 4px 14px rgba(0, 0, 0, 0.45);
+		--shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
+	}
+}
+
 * {
 	box-sizing: border-box;
 }

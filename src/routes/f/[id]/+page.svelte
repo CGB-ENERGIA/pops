@@ -189,6 +189,14 @@
 		color: #92400e;
 	}
 
+	@media (prefers-color-scheme: dark) {
+		.fav-btn.favorited {
+			background: #422006;
+			border-color: #d97706;
+			color: #fbbf24;
+		}
+	}
+
 	.viewer.office {
 		width: 100%;
 		border: 1px solid var(--color-border);

@@ -211,7 +211,7 @@
 		font-size: 13px;
 		letter-spacing: -0.02em;
 		color: var(--accent);
-		background: color-mix(in srgb, var(--accent) 14%, white);
+		background: color-mix(in srgb, var(--accent) 14%, var(--color-surface));
 	}
 
 	.category-text {
