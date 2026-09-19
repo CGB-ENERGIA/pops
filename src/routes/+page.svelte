@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import {
 		root,
 		folderHref,
@@ -11,24 +12,63 @@
 		categoryColor,
 		initials,
 		labelFiles,
+		matchesQuery,
 		type FolderNode,
-		type FileNode
+		type FileNode,
+		type FlatFile
 	} from '$lib/pops';
+	import { getRecents, getFavorites } from '$lib/history';
 
 	const categories = root.children.filter((c) => c.type === 'folder') as FolderNode[];
 	const rootFiles = root.children.filter((c) => c.type === 'file') as FileNode[];
 	const rootFileLabels = labelFiles(rootFiles);
 	const allFiles = flattenFiles();
 	const totalFiles = allFiles.length;
+	const fileMap = new Map(allFiles.map((f) => [f.file.id, f]));
 
 	let query = $state('');
+	let activeExt = $state<string | null>(null);
+	let activeCat = $state<string | null>(null);
+
+	let recentIds = $state<string[]>([]);
+	let favoriteIds = $state<string[]>([]);
+
+	$effect(() => {
+		if (browser) {
+			recentIds = getRecents();
+			favoriteIds = getFavorites();
+		}
+	});
+
+	let favoriteFiles = $derived(
+		favoriteIds.map((id) => fileMap.get(id)).filter((x): x is FlatFile => x != null)
+	);
+	let recentFiles = $derived(
+		recentIds
+			.filter((id) => !favoriteIds.includes(id))
+			.map((id) => fileMap.get(id))
+			.filter((x): x is FlatFile => x != null)
+			.slice(0, 5)
+	);
+
+	let favoriteLabels = $derived(labelFiles(favoriteFiles.map((f) => f.file)));
+	let recentLabels = $derived(labelFiles(recentFiles.map((f) => f.file)));
+
+	let rawResults = $derived(
+		query.trim().length > 1
+			? allFiles.filter(({ file }) => matchesQuery(file, query.trim()))
+			: []
+	);
+
+	let availableExts = $derived([...new Set(rawResults.map((r) => r.file.ext))]);
+	let availableCats = $derived([...new Set(rawResults.map((r) => r.parentSlug[0]).filter(Boolean))]);
 
 	let results = $derived(
-		query.trim().length > 1
-			? allFiles.filter(({ file }) =>
-					file.name.toLowerCase().includes(query.trim().toLowerCase())
-				)
-			: []
+		rawResults.filter(({ file, parentSlug }) => {
+			if (activeExt && file.ext !== activeExt) return false;
+			if (activeCat && (parentSlug[0] ?? '') !== activeCat) return false;
+			return true;
+		})
 	);
 
 	let resultLabels = $derived(labelFiles(results.map((r) => r.file)));
@@ -52,6 +92,35 @@
 </section>
 
 {#if query.trim().length > 1}
+	{#if availableCats.length > 1 || availableExts.length > 1}
+		<div class="filters">
+			{#if availableCats.length > 1}
+				<div class="filter-group">
+					{#each availableCats as cat (cat)}
+						<button
+							type="button"
+							class="filter-chip"
+							class:active={activeCat === cat}
+							onclick={() => (activeCat = activeCat === cat ? null : cat)}
+						>{cat}</button>
+					{/each}
+				</div>
+			{/if}
+			{#if availableExts.length > 1}
+				<div class="filter-group">
+					{#each availableExts as ext (ext)}
+						<button
+							type="button"
+							class="filter-chip"
+							class:active={activeExt === ext}
+							onclick={() => (activeExt = activeExt === ext ? null : ext)}
+						>{extLabel(ext)}</button>
+					{/each}
+				</div>
+			{/if}
+		</div>
+	{/if}
+
 	{#if results.length === 0}
 		<p class="empty">Nenhum procedimento encontrado para "{query}".</p>
 	{:else}
@@ -73,6 +142,44 @@
 		</ul>
 	{/if}
 {:else}
+	{#if favoriteFiles.length > 0}
+		<h2 class="section-title">Favoritos</h2>
+		<ul class="file-list quick-list">
+			{#each favoriteFiles as { file, parentSlug } (file.id)}
+				<li>
+					<a class="file-row" href={fileHref(file)} title={file.name}>
+						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
+						<span class="file-text">
+							<span class="file-name">{favoriteLabels.get(file)}</span>
+							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
+						</span>
+						<span class="file-size">{formatSize(file.sizeBytes)}</span>
+						<span class="chevron" aria-hidden="true">›</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
+
+	{#if recentFiles.length > 0}
+		<h2 class="section-title">Recentes</h2>
+		<ul class="file-list quick-list">
+			{#each recentFiles as { file, parentSlug } (file.id)}
+				<li>
+					<a class="file-row" href={fileHref(file)} title={file.name}>
+						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
+						<span class="file-text">
+							<span class="file-name">{recentLabels.get(file)}</span>
+							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
+						</span>
+						<span class="file-size">{formatSize(file.sizeBytes)}</span>
+						<span class="chevron" aria-hidden="true">›</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
+
 	<h2 class="section-title">Categorias</h2>
 	<ul class="category-grid">
 		{#each categories as cat (cat.slug.join('/'))}
@@ -155,6 +262,37 @@
 			0 0 0 3px var(--color-primary-soft),
 			var(--shadow-sm);
 		border-color: var(--color-primary);
+	}
+
+	.filters {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-bottom: 14px;
+	}
+
+	.filter-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 6px;
+	}
+
+	.filter-chip {
+		padding: 5px 13px;
+		border-radius: 999px;
+		border: 1px solid var(--color-border);
+		background: var(--color-surface);
+		font-size: 12.5px;
+		font-weight: 600;
+		cursor: pointer;
+		color: var(--color-text);
+		transition: background 0.1s, border-color 0.1s, color 0.1s;
+	}
+
+	.filter-chip.active {
+		background: var(--color-primary);
+		border-color: var(--color-primary);
+		color: #fff;
 	}
 
 	.empty {
@@ -252,6 +390,10 @@
 		overflow: hidden;
 	}
 
+	.quick-list {
+		margin-bottom: 24px;
+	}
+
 	.file-list li + li {
 		border-top: 1px solid var(--color-border);
 	}
@@ -318,6 +460,10 @@
 		}
 
 		.file-row:hover {
+			background: var(--color-surface-muted);
+		}
+
+		.filter-chip:not(.active):hover {
 			background: var(--color-surface-muted);
 		}
 	}

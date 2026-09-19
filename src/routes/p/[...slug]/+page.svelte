@@ -9,7 +9,8 @@
 		extColor,
 		categoryColor,
 		initials,
-		labelFiles
+		labelFiles,
+		matchesQuery
 	} from '$lib/pops';
 
 	let { data }: { data: PageData } = $props();
@@ -29,7 +30,7 @@
 	);
 	let filteredFiles = $derived(
 		query.trim()
-			? files.filter((f) => f.name.toLowerCase().includes(query.trim().toLowerCase()))
+			? files.filter((f) => matchesQuery(f, query.trim()))
 			: files
 	);
 

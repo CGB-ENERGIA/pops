@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { folderHref, fileUrl, formatSize, extLabel, extColor } from '$lib/pops';
+	import { addRecent, isFavorite, toggleFavorite } from '$lib/history';
+	import { browser } from '$app/environment';
 	import OfficePreview from '$lib/OfficePreview.svelte';
 	import PdfViewer from '$lib/PdfViewer.svelte';
 
@@ -17,6 +19,19 @@
 	let isPdf = $derived(file.ext === 'pdf');
 	let isOffice = $derived(['xlsx', 'xls', 'xlsm', 'xlsb', 'docx', 'doc'].includes(file.ext));
 	let backHref = $derived(parentSlug.length ? folderHref(parentSlug) : '/');
+
+	let favorited = $state(false);
+
+	$effect(() => {
+		if (browser) {
+			addRecent(file.id);
+			favorited = isFavorite(file.id);
+		}
+	});
+
+	function toggleFav() {
+		favorited = toggleFavorite(file.id);
+	}
 </script>
 
 <svelte:head>
@@ -43,6 +58,9 @@
 
 <div class="toolbar">
 	<a class="back" href={backHref}>← Voltar</a>
+	<button type="button" class="fav-btn" class:favorited onclick={toggleFav}>
+		{favorited ? '★' : '☆'} {favorited ? 'Favoritado' : 'Favoritar'}
+	</button>
 	<a class="download" href={fileHrefUrl} download={file.name}>⬇ Baixar</a>
 	<a class="open-tab" href={fileHrefUrl} target="_blank" rel="noopener noreferrer">Abrir em nova aba ↗</a>
 </div>
@@ -151,6 +169,24 @@
 		background: var(--color-surface);
 		color: var(--color-text);
 		font-weight: 600;
+	}
+
+	.fav-btn {
+		font-size: 13.5px;
+		padding: 10px 18px;
+		border-radius: 999px;
+		border: 1px solid var(--color-border);
+		background: var(--color-surface);
+		color: var(--color-text);
+		font-weight: 600;
+		cursor: pointer;
+		transition: background 0.15s, border-color 0.15s, color 0.15s;
+	}
+
+	.fav-btn.favorited {
+		background: #fef3c7;
+		border-color: #d97706;
+		color: #92400e;
 	}
 
 	.viewer.office {

@@ -164,3 +164,16 @@ export function labelFiles<T extends { name: string }>(items: T[]): Map<T, strin
 	for (const item of items) result.set(item, shortLabel(item.name));
 	return result;
 }
+
+// Verifica se o arquivo corresponde a uma query de busca.
+// Além do nome, suporta busca por número do POP: "168" acha "POP.00168".
+export function matchesQuery(file: FileNode, q: string): boolean {
+	const lower = q.toLowerCase().trim();
+	if (!lower) return false;
+	if (file.name.toLowerCase().includes(lower)) return true;
+	if (/^\d+$/.test(lower)) {
+		const m = file.name.match(POP_CODE_RE);
+		if (m && parseInt(m[1], 10) === parseInt(lower, 10)) return true;
+	}
+	return false;
+}

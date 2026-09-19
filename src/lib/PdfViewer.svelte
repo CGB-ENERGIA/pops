@@ -12,6 +12,9 @@
 	let matchCurrent = $state(0);
 	let matchTotal = $state(0);
 	let searching = $state(false);
+	let currentPage = $state(1);
+	let totalPages = $state(0);
+	let zoomPct = $state(100);
 
 	// instâncias do pdf.js guardadas fora do estado reativo do Svelte
 	let eventBus: import('pdfjs-dist/web/pdf_viewer.mjs').EventBus | undefined;
@@ -52,6 +55,14 @@
 				status = 'ready';
 			});
 
+			eventBus.on('pagechanging', (evt: { pageNumber: number }) => {
+				currentPage = evt.pageNumber;
+			});
+
+			eventBus.on('scalechanging', (evt: { scale: number }) => {
+				zoomPct = Math.round(evt.scale * 100);
+			});
+
 			eventBus.on('updatefindmatchescount', (evt: { matchesCount: { current: number; total: number } }) => {
 				matchCurrent = evt.matchesCount.current;
 				matchTotal = evt.matchesCount.total;
@@ -66,6 +77,7 @@
 				const loadingTask = pdfjsLib.getDocument({ url });
 				const pdfDocument = await loadingTask.promise;
 				if (cancelled) return;
+				totalPages = pdfDocument.numPages;
 				pdfViewer.setDocument(pdfDocument);
 				linkService.setDocument(pdfDocument);
 			} catch (e) {
@@ -122,6 +134,26 @@
 			e.shiftKey ? prev() : next();
 		}
 	}
+
+	function zoomIn() {
+		if (!pdfViewer) return;
+		pdfViewer.currentScale = Math.min(pdfViewer.currentScale * 1.25, 5);
+	}
+
+	function zoomOut() {
+		if (!pdfViewer) return;
+		pdfViewer.currentScale = Math.max(pdfViewer.currentScale / 1.25, 0.25);
+	}
+
+	function goToPage(n: number) {
+		if (!pdfViewer || !totalPages) return;
+		pdfViewer.currentPageNumber = Math.max(1, Math.min(Math.round(n), totalPages));
+	}
+
+	function onPageInput(e: Event) {
+		const val = parseInt((e.target as HTMLInputElement).value, 10);
+		if (!isNaN(val)) goToPage(val);
+	}
 </script>
 
 <div class="pdf-toolbar">
@@ -153,6 +185,28 @@
 		>
 	{/if}
 </div>
+
+{#if status === 'ready'}
+<div class="pdf-toolbar pdf-toolbar-nav">
+	<button type="button" onclick={zoomOut} aria-label="Diminuir zoom">−</button>
+	<span class="zoom-pct">{zoomPct}%</span>
+	<button type="button" onclick={zoomIn} aria-label="Aumentar zoom">+</button>
+	{#if totalPages > 1}
+		<span class="nav-sep">|</span>
+		<span class="page-label">Pág.</span>
+		<input
+			type="number"
+			class="page-input"
+			min="1"
+			max={totalPages}
+			value={currentPage}
+			onchange={onPageInput}
+			aria-label="Número da página"
+		/>
+		<span class="page-total">de {totalPages}</span>
+	{/if}
+</div>
+{/if}
 
 <div class="pdf-shell">
 	{#if status === 'loading'}
@@ -224,6 +278,49 @@
 	.pdf-toolbar button:disabled {
 		opacity: 0.4;
 		cursor: default;
+	}
+
+	.pdf-toolbar-nav {
+		margin-top: -4px;
+	}
+
+	.zoom-pct {
+		font-size: 12.5px;
+		color: var(--color-text-muted);
+		min-width: 40px;
+		text-align: center;
+	}
+
+	.nav-sep {
+		color: var(--color-border);
+		margin: 0 4px;
+		font-size: 14px;
+	}
+
+	.page-label {
+		font-size: 12.5px;
+		color: var(--color-text-muted);
+	}
+
+	.page-input {
+		width: 52px;
+		padding: 5px 8px;
+		border: 1px solid var(--color-border);
+		border-radius: 6px;
+		background: var(--color-surface);
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.page-input:focus {
+		outline: none;
+		border-color: var(--color-primary);
+		box-shadow: 0 0 0 2px var(--color-primary-soft);
+	}
+
+	.page-total {
+		font-size: 12.5px;
+		color: var(--color-text-muted);
 	}
 
 	.pdf-shell {
