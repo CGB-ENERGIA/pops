@@ -17,7 +17,8 @@
 		type FileNode,
 		type FlatFile
 	} from '$lib/pops';
-	import { getRecents, getFavorites } from '$lib/history';
+	import { getRecents, getFavorites, isUpdatedSinceLastView } from '$lib/history';
+	import { searchContent } from '$lib/text-search';
 
 	const categories = root.children.filter((c) => c.type === 'folder') as FolderNode[];
 	const rootFiles = root.children.filter((c) => c.type === 'file') as FileNode[];
@@ -32,12 +33,22 @@
 
 	let recentIds = $state<string[]>([]);
 	let favoriteIds = $state<string[]>([]);
+	let updatedIds = $state(new Set<string>());
 
 	$effect(() => {
 		if (browser) {
 			recentIds = getRecents();
 			favoriteIds = getFavorites();
 		}
+	});
+
+	$effect(() => {
+		if (!browser) return;
+		const updated = new Set<string>();
+		for (const { file } of [...favoriteFiles, ...recentFiles]) {
+			if (isUpdatedSinceLastView(file.id, file.modified)) updated.add(file.id);
+		}
+		updatedIds = updated;
 	});
 
 	let favoriteFiles = $derived(
@@ -72,6 +83,38 @@
 	);
 
 	let resultLabels = $derived(labelFiles(results.map((r) => r.file)));
+
+	let contentResults = $state<FlatFile[]>([]);
+	let searchingContent = $state(false);
+
+	$effect(() => {
+		const q = query.trim();
+		if (q.length < 3) {
+			contentResults = [];
+			searchingContent = false;
+			return;
+		}
+
+		const filenameMatchIds = new Set(rawResults.map((r) => r.file.id));
+		let cancelled = false;
+
+		const timeout = setTimeout(async () => {
+			if (cancelled) return;
+			searchingContent = true;
+			const matches = await searchContent(q);
+			if (!cancelled) {
+				contentResults = matches.filter((f) => !filenameMatchIds.has(f.file.id));
+				searchingContent = false;
+			}
+		}, 400);
+
+		return () => {
+			cancelled = true;
+			clearTimeout(timeout);
+		};
+	});
+
+	let contentLabels = $derived(labelFiles(contentResults.map((f) => f.file)));
 </script>
 
 <svelte:head>
@@ -121,17 +164,43 @@
 		</div>
 	{/if}
 
-	{#if results.length === 0}
+	{#if results.length === 0 && contentResults.length === 0 && !searchingContent}
 		<p class="empty">Nenhum procedimento encontrado para "{query}".</p>
-	{:else}
-		<p class="results-count">{results.length} resultado(s)</p>
-		<ul class="file-list">
+	{/if}
+
+	{#if results.length > 0}
+		<p class="results-count">{results.length} resultado(s) pelo nome</p>
+		<ul class="file-list" style:margin-bottom={contentResults.length > 0 || searchingContent ? '20px' : '0'}>
 			{#each results as { file, parentSlug } (file.id)}
 				<li>
 					<a class="file-row" href={fileHref(file)} title={file.name}>
 						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
 						<span class="file-text">
 							<span class="file-name">{resultLabels.get(file)}</span>
+							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
+						</span>
+						<span class="file-size">{formatSize(file.sizeBytes)}</span>
+						<span class="chevron" aria-hidden="true">›</span>
+					</a>
+				</li>
+			{/each}
+		</ul>
+	{/if}
+
+	{#if searchingContent}
+		<p class="results-count searching">Buscando no conteúdo dos documentos…</p>
+	{:else if contentResults.length > 0}
+		<p class="results-count">{contentResults.length} encontrado(s) no conteúdo</p>
+		<ul class="file-list">
+			{#each contentResults as { file, parentSlug } (file.id)}
+				<li>
+					<a class="file-row" href={fileHref(file)} title={file.name}>
+						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
+						<span class="file-text">
+							<span class="file-name">
+								{contentLabels.get(file)}
+								<span class="content-badge">no conteúdo</span>
+							</span>
 							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
 						</span>
 						<span class="file-size">{formatSize(file.sizeBytes)}</span>
@@ -150,7 +219,10 @@
 					<a class="file-row" href={fileHref(file)} title={file.name}>
 						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
 						<span class="file-text">
-							<span class="file-name">{favoriteLabels.get(file)}</span>
+							<span class="file-name">
+								{favoriteLabels.get(file)}
+								{#if updatedIds.has(file.id)}<span class="update-dot">Atualizado</span>{/if}
+							</span>
 							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
 						</span>
 						<span class="file-size">{formatSize(file.sizeBytes)}</span>
@@ -169,7 +241,10 @@
 					<a class="file-row" href={fileHref(file)} title={file.name}>
 						<span class="ext-badge" style:background={extColor(file.ext)}>{extLabel(file.ext)}</span>
 						<span class="file-text">
-							<span class="file-name">{recentLabels.get(file)}</span>
+							<span class="file-name">
+								{recentLabels.get(file)}
+								{#if updatedIds.has(file.id)}<span class="update-dot">Atualizado</span>{/if}
+							</span>
 							<span class="file-path">{parentSlug.join(' / ') || 'Raiz'}</span>
 						</span>
 						<span class="file-size">{formatSize(file.sizeBytes)}</span>
@@ -308,6 +383,44 @@
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 		margin: 0 0 10px;
+	}
+
+	.results-count.searching {
+		font-style: italic;
+		text-transform: none;
+		letter-spacing: 0;
+	}
+
+	.update-dot {
+		display: inline-block;
+		background: #dbeafe;
+		color: #1d4ed8;
+		font-size: 10px;
+		font-weight: 700;
+		padding: 2px 7px;
+		border-radius: 999px;
+		vertical-align: middle;
+		margin-left: 6px;
+	}
+
+	.content-badge {
+		display: inline-block;
+		background: var(--color-surface-muted);
+		color: var(--color-text-muted);
+		font-size: 10px;
+		font-weight: 600;
+		padding: 2px 7px;
+		border-radius: 999px;
+		vertical-align: middle;
+		margin-left: 6px;
+		border: 1px solid var(--color-border);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.update-dot {
+			background: rgba(29, 78, 216, 0.2);
+			color: #93c5fd;
+		}
 	}
 
 	.section-title {

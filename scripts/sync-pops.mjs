@@ -9,7 +9,7 @@
 // Rode `npm run sync` sempre que os arquivos originais forem atualizados, depois
 // confira o resultado com `npm run dev` e faça commit + push.
 
-import { existsSync, mkdirSync, rmSync, copyFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync, copyFileSync, readdirSync, statSync, writeFileSync, readFileSync } from 'node:fs';
 import { join, resolve, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
@@ -19,10 +19,12 @@ const PROJECT_ROOT = resolve(__dirname, '..');
 
 const SOURCE_DIR =
 	process.env.SOURCE_DIR ??
-	resolve(PROJECT_ROOT, '..', 'PROCEDIMENTOS OPERACIONAIS - CGB');
+	resolve(PROJECT_ROOT, '..', 'Procedimentos Atualizados - QRCODE');
 
 const DEST_DIR = resolve(PROJECT_ROOT, 'static', 'pops');
 const MANIFEST_PATH = resolve(PROJECT_ROOT, 'src', 'lib', 'data', 'manifest.json');
+const TEXT_INDEX_PATH = resolve(PROJECT_ROOT, 'static', 'text-index.json');
+const TEXT_CACHE_PATH = resolve(__dirname, 'text-cache.json');
 
 const ALLOWED_EXT = new Set([
 	'.pdf',
@@ -50,6 +52,7 @@ mkdirSync(DEST_DIR, { recursive: true });
 let fileCount = 0;
 let skippedCount = 0;
 const usedIds = new Set();
+const fileList = []; // { id, ext, srcPath, modified } — used for text extraction
 
 function shouldSkip(name) {
 	return name.startsWith('~$') || name.startsWith('.');
@@ -104,9 +107,11 @@ function walk(sourceDir, slug) {
 		const id = idFor(fileSlug);
 		const extNoDot = ext.replace('.', '');
 
-		copyFileSync(sourcePath, join(DEST_DIR, `${id}.${extNoDot}`));
 		const stats = statSync(sourcePath);
+		copyFileSync(sourcePath, join(DEST_DIR, `${id}.${extNoDot}`));
 		fileCount++;
+
+		fileList.push({ id, ext: extNoDot, srcPath: sourcePath, modified: stats.mtime.toISOString() });
 
 		children.push({
 			type: 'file',
@@ -135,3 +140,72 @@ writeFileSync(MANIFEST_PATH, JSON.stringify(tree, null, '\t') + '\n', 'utf-8');
 console.log(`Fonte: ${SOURCE_DIR}`);
 console.log(`${fileCount} arquivo(s) copiado(s) para static/pops, ${skippedCount} ignorado(s).`);
 console.log(`Manifesto gerado em src/lib/data/manifest.json`);
+
+// ── Extração de texto para busca por conteúdo ──────────────────────────────
+
+async function extractPdfText(filePath) {
+	try {
+		const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
+		const data = new Uint8Array(readFileSync(filePath));
+		const doc = await pdfjs.getDocument({ data, useWorkerFetch: false, isEvalSupported: false, disableFontFace: true }).promise;
+		let text = '';
+		for (let i = 1; i <= Math.min(doc.numPages, 4); i++) {
+			const page = await doc.getPage(i);
+			const content = await page.getTextContent();
+			text += content.items.filter(item => 'str' in item).map(item => item.str).join(' ') + ' ';
+		}
+		return text.replace(/\s+/g, ' ').trim().slice(0, 3000);
+	} catch {
+		return '';
+	}
+}
+
+async function extractDocxText(filePath) {
+	try {
+		const mammoth = await import('mammoth');
+		const result = await mammoth.extractRawText({ path: filePath });
+		return result.value.replace(/\s+/g, ' ').trim().slice(0, 3000);
+	} catch {
+		return '';
+	}
+}
+
+async function buildTextIndex() {
+	let cache = {};
+	try { cache = JSON.parse(readFileSync(TEXT_CACHE_PATH, 'utf-8')); } catch { /* no cache yet */ }
+
+	const index = {};
+	let extracted = 0, cached = 0, failed = 0;
+
+	for (const { id, ext, srcPath, modified } of fileList) {
+		if (ext !== 'pdf' && ext !== 'docx' && ext !== 'doc') continue;
+
+		const cacheKey = `${id}_${modified}`;
+		if (cacheKey in cache) {
+			if (cache[cacheKey]) index[id] = cache[cacheKey];
+			cached++;
+			continue;
+		}
+
+		let text = '';
+		if (ext === 'pdf') text = await extractPdfText(srcPath);
+		else text = await extractDocxText(srcPath);
+
+		cache[cacheKey] = text;
+		if (text) { index[id] = text; extracted++; } else failed++;
+	}
+
+	writeFileSync(TEXT_CACHE_PATH, JSON.stringify(cache, null, '\t'), 'utf-8');
+	writeFileSync(TEXT_INDEX_PATH, JSON.stringify(index), 'utf-8');
+	return { extracted, cached, failed };
+}
+
+const SKIP_TEXT = process.argv.includes('--no-text');
+if (!SKIP_TEXT) {
+	console.log('Extraindo texto dos documentos (use --no-text para pular)…');
+	const t0 = Date.now();
+	const { extracted, cached, failed } = await buildTextIndex();
+	const dt = ((Date.now() - t0) / 1000).toFixed(1);
+	console.log(`Texto: ${extracted} novo(s), ${cached} do cache, ${failed} sem texto — ${dt}s`);
+	console.log(`Índice de texto: static/text-index.json`);
+}

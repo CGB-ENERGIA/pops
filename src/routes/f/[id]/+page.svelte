@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { folderHref, fileUrl, formatSize, extLabel, extColor } from '$lib/pops';
-	import { addRecent, isFavorite, toggleFavorite } from '$lib/history';
+	import { addRecent, isFavorite, toggleFavorite, markSeen, isUpdatedSinceLastView } from '$lib/history';
 	import { browser } from '$app/environment';
 	import OfficePreview from '$lib/OfficePreview.svelte';
 	import PdfViewer from '$lib/PdfViewer.svelte';
@@ -21,10 +21,13 @@
 	let backHref = $derived(parentSlug.length ? folderHref(parentSlug) : '/');
 
 	let favorited = $state(false);
+	let updated = $state(false);
 
 	$effect(() => {
 		if (browser) {
+			updated = isUpdatedSinceLastView(file.id, file.modified);
 			addRecent(file.id);
+			markSeen(file.id, file.modified);
 			favorited = isFavorite(file.id);
 		}
 	});
@@ -64,6 +67,12 @@
 	<a class="download" href={fileHrefUrl} download={file.name}>⬇ Baixar</a>
 	<a class="open-tab" href={fileHrefUrl} target="_blank" rel="noopener noreferrer">Abrir em nova aba ↗</a>
 </div>
+
+{#if updated}
+<div class="update-banner" role="alert">
+	Este procedimento foi atualizado desde a sua última visita.
+</div>
+{/if}
 
 {#if isPdf}
 	<PdfViewer url={fileHrefUrl} />
@@ -194,6 +203,25 @@
 			background: #422006;
 			border-color: #d97706;
 			color: #fbbf24;
+		}
+	}
+
+	.update-banner {
+		background: #eff6ff;
+		border: 1px solid #bfdbfe;
+		border-radius: var(--radius-sm);
+		padding: 10px 16px;
+		font-size: 13.5px;
+		color: #1d4ed8;
+		font-weight: 500;
+		margin-bottom: 16px;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.update-banner {
+			background: rgba(29, 78, 216, 0.15);
+			border-color: rgba(29, 78, 216, 0.4);
+			color: #93c5fd;
 		}
 	}
 

@@ -46,3 +46,27 @@ export function toggleFavorite(id: string): boolean {
 	safeSet(FAVORITES_KEY, favs);
 	return true;
 }
+
+const SEEN_KEY = 'cgb_pops_seen';
+
+function getSeen(): Record<string, string> {
+	try {
+		return JSON.parse(localStorage.getItem(SEEN_KEY) ?? '{}') as Record<string, string>;
+	} catch {
+		return {};
+	}
+}
+
+export function markSeen(id: string, modified: string): void {
+	try {
+		const seen = getSeen();
+		seen[id] = modified;
+		localStorage.setItem(SEEN_KEY, JSON.stringify(seen));
+	} catch { /* private/storage-full */ }
+}
+
+export function isUpdatedSinceLastView(id: string, modified: string): boolean {
+	const seen = getSeen();
+	if (!(id in seen)) return false;
+	return seen[id] !== modified;
+}
