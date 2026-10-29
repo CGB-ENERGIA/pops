@@ -52,6 +52,9 @@
 			eventBus.on('pagesinit', () => {
 				if (!pdfViewer) return;
 				pdfViewer.currentScaleValue = 'page-width';
+				if (containerEl.clientWidth < 640) {
+					pdfViewer.currentScale = pdfViewer.currentScale * 1.18;
+				}
 				status = 'ready';
 			});
 
@@ -353,6 +356,45 @@
 
 	.pdf-container.hidden {
 		visibility: hidden;
+	}
+
+	.pdf-container {
+		touch-action: pan-x pan-y pinch-zoom;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	@media (max-width: 640px) {
+		.pdf-shell {
+			height: 78dvh;
+			min-height: 420px;
+			border-radius: var(--radius-sm);
+		}
+
+		.pdf-toolbar button {
+			width: 44px;
+			height: 44px;
+			font-size: 20px;
+		}
+
+		.page-input {
+			width: 60px;
+			padding: 10px 6px;
+			font-size: 16px;
+		}
+
+		.search-box input {
+			padding: 12px 14px 12px 38px;
+			font-size: 16px;
+		}
+
+		.search-box {
+			min-width: 0;
+			flex-basis: 100%;
+		}
+
+		.pdf-toolbar-nav {
+			margin-top: 0;
+		}
 	}
 
 	:global(.pdf-container .pdfViewer .page) {

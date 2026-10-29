@@ -47,7 +47,7 @@
 		<span class="sep">/</span>
 		<a href={crumb.href}>{crumb.name}</a>
 	{/each}
-	<span class="sep">/</span>
+	<span class="sep sep-last">/</span>
 	<span class="current">{file.name}</span>
 </nav>
 
@@ -222,6 +222,59 @@
 			background: rgba(29, 78, 216, 0.15);
 			border-color: rgba(29, 78, 216, 0.4);
 			color: #93c5fd;
+		}
+	}
+
+	@media (max-width: 640px) {
+		.breadcrumb .current,
+		.breadcrumb .sep-last {
+			display: none;
+		}
+
+		.breadcrumb {
+			margin-bottom: 12px;
+		}
+
+		.title {
+			font-size: 16px;
+			line-height: 1.3;
+		}
+
+		.file-header {
+			gap: 12px;
+			margin-bottom: 12px;
+		}
+
+		.ext-badge.large {
+			font-size: 11px;
+			padding: 7px 10px;
+		}
+
+		.toolbar {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 8px;
+			margin-bottom: 12px;
+		}
+
+		.toolbar > * {
+			text-align: center;
+			min-height: 44px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 8px 10px;
+		}
+
+		.toolbar .back {
+			grid-column: 1 / -1;
+			justify-content: flex-start;
+			min-height: 32px;
+			padding: 0 2px;
+		}
+
+		.open-tab {
+			grid-column: 1 / -1;
 		}
 	}
 

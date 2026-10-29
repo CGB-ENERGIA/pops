@@ -560,6 +560,29 @@
 		flex-shrink: 0;
 	}
 
+	@media (max-width: 640px) {
+		.file-name {
+			white-space: normal;
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+			-webkit-box-orient: vertical;
+			line-height: 1.35;
+		}
+
+		.file-size {
+			display: none;
+		}
+
+		.filter-chip {
+			padding: 9px 14px;
+		}
+
+		.hero h1 {
+			font-size: 22px;
+		}
+	}
+
 	.chevron {
 		color: var(--color-text-muted);
 		flex-shrink: 0;
